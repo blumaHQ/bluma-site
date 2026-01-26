@@ -69,11 +69,7 @@ header {
   color: var(--text);
 }
 
-.brand-badge {
-  display: grid; place-items: center;
-}
-
-.brand-badge img {
+.brand img {
   height: 48px;
   width: auto;
 }
@@ -566,7 +562,7 @@ footer {
   thead { position: sticky; top: 0; z-index: 1; }
   .cta-row { flex-direction: column; }
   .cta { width: 100%; justify-content: center; }
-  .brand-badge img {
+  .brand img {
     height: 32px;
   }
 }
