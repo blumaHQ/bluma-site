@@ -117,6 +117,12 @@ header {
   color: #fff;
 }
 
+.bullet .tick {
+  width: 1.4em;
+  height: 1.4em;
+  flex-shrink: 0;
+}
+
 .cta-row {
   display: flex;
   flex-wrap: wrap;
