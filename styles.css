@@ -81,7 +81,7 @@ header {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.05fr .95fr;
+  grid-template-columns: 1.15fr 0.85fr;
   gap: 48px;
   padding: 36px 0 0 0;
   align-items: center;
@@ -95,7 +95,7 @@ header {
 .hero h1 {
   font-family: Space Grotesk, Inter, sans-serif;
   font-weight: 900;
-  font-size: clamp(2rem, 4.5vw, 3.8rem);
+  font-size: clamp(2.125rem, 4.8vw, 4.05rem);
   line-height: 1.15;
   letter-spacing: -0.5px;
   margin: 0 0 48px 0;
