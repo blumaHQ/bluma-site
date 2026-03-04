@@ -220,7 +220,7 @@ section {
 h2 {
   font-family: Space Grotesk, Inter, sans-serif;
   font-weight: 900;
-  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  font-size: clamp(1.8rem, 4.2vw, 2.7rem);
   margin: 0;
   letter-spacing: -0.3px;
 }
@@ -487,10 +487,15 @@ tbody tr:nth-child(odd) td {
 .check { color: #1f9d63; font-weight: 900; }
 .dash { color: #8f88a8; font-weight: 900; }
 
-.note {
-  color: var(--muted);
-  font-size: 1.125rem;
-  margin-top: 10px;
+.founder-note-content p {
+  font-size: 1.46rem;
+  line-height: 1.625;
+  margin-bottom: 20px;
+}
+
+.founder-role p {
+  font-size: 1.25rem;
+  line-height: 1.625;
 }
 
 footer {
