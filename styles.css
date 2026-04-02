@@ -233,7 +233,6 @@ section {
   align-items: center;
   text-align: center;
   gap: 18px;
-  background: linear-gradient(180deg, #ffffff, #fdfcff);
   max-width: 1536px;
   margin: 0 auto;
 }
