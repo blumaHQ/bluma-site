@@ -24,7 +24,6 @@
       <nav class="header-links" aria-label="Primary">
         <a href="index.html#features">Features</a>
         <a href="index.html#benefits">Why Bluma</a>
-        <a href="index.html#how-predictions-work">How predictions work</a>
       </nav>
     </div>
   </header>
@@ -33,7 +32,7 @@
     <section class="privacy-hero" aria-labelledby="privacy-title">
       <div class="section-head">
         <h1 id="privacy-title">Privacy Policy</h1>
-        <p class="last-updated">Last updated: <span id="current-date"></span></p>
+        <p class="last-updated">Last updated: <time datetime="2026-03-31">March 31, 2026</time></p>
       </div>
     </section>
 
@@ -45,13 +44,13 @@
 
       <div class="privacy-section">
         <h2>Data Use</h2>
-        <p>Bluma respects and celebrates your privacy. There is no collection of usage data or personal information, no ads, no spyware. Bluma can store data related to your menstrual health locally on your phone, and this includes:</p>
+        <p>Bluma does not collect personal information or usage data. Bluma stores data related to your menstrual health <strong>only on your device</strong>, and this includes:</p>
         <ul class="privacy-list">
           <li>Period start and end dates</li>
           <li>Cycle length and period duration</li>
-          <li>Symptoms and mood tracking data</li>
-          <li>Notes and personal observations</li>
-          <li>App preferences and settings</li>
+          <li>Health data: symtomps, moods, menstrual flow, vaginal dischage, sexual activity and absa body temperature</li>
+          <li>Notes</li>
+          <li>App preferences</li>
         </ul>
         <p>This data is used solely to provide you with period predictions, cycle insights, and personalized tracking features. We do not share, sell, or transmit your personal health data to any third parties, and it cannot be accessed by the app developer</p>
       </div>
@@ -69,8 +68,8 @@
       <div class="privacy-section">
         <h2>Permissions</h2>
         <p>Bluma may request the following permissions:</p>
-          <p><strong>Reminders:</strong> To send you period reminders and cycle predictions.</p>
-          <p><strong>Biometric authentication (Fingerprint/Face Recognition):</strong> To secure your app with fingerprint or face recognition (optional).</p>
+          <p><strong>Reminders:</strong> To send you period and fertility-related reminders.</p>
+          <p><strong>Biometric authentication:</strong> To secure your app with your device's biometric authentication (fingerprint or face recognition).</p>
         <ul class="privacy-list">
           <li>Biometric data is processed by your device's operating system only</li>
           <li>Bluma never stores, collects, or has access to your biometric data</li>
@@ -114,11 +113,6 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
-    });
   </script>
 </body>
 </html>
