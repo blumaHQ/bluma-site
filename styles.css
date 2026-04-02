@@ -132,6 +132,10 @@ header {
   margin: 10px 0 0;
   font-size: 1rem;
   font-weight: 400;
+  color: var(--muted);
+}
+
+.hero .cta-helper {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -249,43 +253,6 @@ section {
   font-size: 1.2rem;
   line-height: 1.6;
   max-width: 60ch;
-}
-
-.cta-actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 6px;
-}
-
-.cta-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 14px 18px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 800;
-  color: #fff;
-  background: #475ECB;
-  box-shadow: 0 10px 28px rgba(71, 94, 203, 0.25);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
-}
-
-.cta-button:hover {
-  background: #3f55bd;
-  transform: translateY(-1px);
-  box-shadow: 0 14px 34px rgba(71, 94, 203, 0.32);
-}
-
-.cta-button:active {
-  transform: translateY(0px);
-  box-shadow: 0 10px 28px rgba(71, 94, 203, 0.22);
-}
-
-.cta-button:focus-visible {
-  outline: 3px solid rgba(139, 125, 238, 0.45);
-  outline-offset: 3px;
 }
 
 .section-head {
@@ -565,10 +532,6 @@ footer {
   .cta-card {
     flex-direction: column;
     text-align: center;
-  }
-  .cta-actions {
-    width: 100%;
-    justify-content: center;
   }
 }
 
