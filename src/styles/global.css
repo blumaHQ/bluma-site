@@ -46,7 +46,6 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  padding: 0 16px;
 }
 
 header {
@@ -565,6 +564,7 @@ footer {
   .hero {
     grid-template-columns: 1fr;
     gap: 20px;
+    text-align: center;
   }
   .feature-showcase {
     grid-template-columns: 1fr;
