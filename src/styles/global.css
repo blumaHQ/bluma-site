@@ -81,6 +81,54 @@ header {
   color: #475ECB;
 }
 
+@media (max-width: 640px) {
+  .header-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-top: 1px solid #e5e7eb;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 8px 0 16px;
+    z-index: 50;
+  }
+
+  .header-links.open {
+    display: flex;
+  }
+
+  .header-links > a {
+    width: 100%;
+    padding: 12px 24px;
+  }
+
+  .header-links .lang-dropdown {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .header-links .lang-dropdown summary {
+    padding: 12px 0;
+  }
+
+  .header-links .lang-dropdown ul {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: #f9fafb;
+    border-radius: 6px;
+    padding: 4px;
+    margin-top: 4px;
+    min-width: unset;
+    width: 100%;
+  }
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;

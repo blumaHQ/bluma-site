@@ -23,7 +23,11 @@ const normalizedBase = basePath === '' ? '/' : basePath;
     <a class="brand" href={homePath}>
       <img src="/assets/images/bluma-logo.png" alt="Bluma logo" width="100%" height="auto" />
     </a>
-    <nav class="header-links" aria-label="Primary">
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
+      <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg class="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <nav class="header-links" id="primary-nav" aria-label="Primary">
       <a href={`${homePath}#features`}>{t('nav.features')}</a>
       <a href={`${homePath}#benefits`}>{t('nav.why')}</a>
       <details class="lang-dropdown">
@@ -49,7 +53,52 @@ const normalizedBase = basePath === '' ? '/' : basePath;
   </div>
 </header>
 
+<script>
+  const btn = document.getElementById('hamburger-btn')!;
+  const nav = document.getElementById('primary-nav')!;
+
+  btn.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
 <style>
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    color: var(--muted);
+    line-height: 0;
+  }
+
+  .hamburger .icon-close {
+    display: none;
+  }
+
+  .hamburger[aria-expanded='true'] .icon-menu {
+    display: none;
+  }
+
+  .hamburger[aria-expanded='true'] .icon-close {
+    display: block;
+  }
+
+  @media (max-width: 640px) {
+    .hamburger {
+      display: block;
+    }
+  }
+
   .lang-dropdown {
     position: relative;
   }
