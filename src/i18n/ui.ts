@@ -12,7 +12,7 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'Stay in tune with your menstrual cycle, privately.',
+    'hero.title': 'Stay in tune with your cycle, privately.',
     'hero.bullet.local': 'Data stored locally and encrypted',
     'hero.bullet.noads': 'No ads',
     'hero.bullet.notracking': 'No third-party tracking',
