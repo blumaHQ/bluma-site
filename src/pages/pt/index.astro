@@ -1,0 +1,212 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { useTranslations } from '../../i18n/utils';
+
+const lang = 'pt';
+const t = useTranslations(lang);
+---
+
+<Layout
+  title="Bluma — Rastreador de ciclo que fica no teu dispositivo"
+  description="Bluma é uma app gratuita de rastreamento menstrual com privacidade em primeiro lugar. Os teus dados ficam no teu dispositivo. Sem registos, sem anúncios, sem rastreamento."
+  lang={lang}
+  canonicalPath="/"
+>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-content">
+      <h1 id="hero-title">{t('hero.title')}</h1>
+      <div class="bullet-grid" role="list">
+        <div class="bullet" role="listitem">
+          <img class="tick" src="/assets/icons/lock-2.svg" alt="" aria-hidden="true" />
+          <span>{t('hero.bullet.local')}</span>
+        </div>
+        <div class="bullet" role="listitem">
+          <img class="tick" src="/assets/icons/block.svg" alt="" aria-hidden="true" />
+          <span>{t('hero.bullet.noads')}</span>
+        </div>
+        <div class="bullet" role="listitem">
+          <img class="tick" src="/assets/icons/shield-2.svg" alt="" aria-hidden="true" />
+          <span>{t('hero.bullet.notracking')}</span>
+        </div>
+        <div class="bullet" role="listitem">
+          <img class="tick" src="/assets/icons/open-source.svg" alt="" aria-hidden="true" />
+          <span>{t('hero.bullet.opensource')}</span>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a class="cta google" href="https://play.google.com/store/apps/details?id=health.bluma&hl=pt" aria-label="Obtém o Bluma no Google Play">
+          <img src="/assets/images/google-play-badge.svg" alt="Disponível no Google Play" style="height: 54px;" />
+        </a>
+      </div>
+      <p class="cta-helper">{t('hero.cta.ios')}</p>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <img src="/assets/images/hero-image.png" alt="Bluma app homescreen" style="width: 100%; height: auto;" />
+    </div>
+  </section>
+
+  <section id="features" style="margin-top: 32px;" aria-labelledby="features-title">
+    <div class="section-head">
+      <h2 id="features-title">{t('features.title')}</h2>
+    </div>
+    <div class="feature-showcase">
+      <div class="feature-visual">
+        <img id="feature-image" src="/assets/images/tracking.png" alt="Feature preview" />
+        <div class="feature-pagination" id="feature-pagination"></div>
+      </div>
+      <div class="feature-list">
+        <article class="feature-item active" data-image="/assets/images/tracking.png">
+          <div class="icon" aria-hidden="true">
+            <img src="/assets/icons/calendar.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.track.title')}</h3>
+            <p>{t('features.track.desc')}</p>
+          </div>
+        </article>
+        <article class="feature-item" data-image="/assets/images/symptom-tracking.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffdceb,#ffc2d9);">
+            <img src="/assets/icons/mood.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.symptoms.title')}</h3>
+            <p>{t('features.symptoms.desc')}</p>
+          </div>
+        </article>
+        <article class="feature-item" data-image="/assets/images/stats.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
+            <img src="/assets/icons/stats.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.stats.title')}</h3>
+            <p>{t('features.stats.desc')}</p>
+          </div>
+        </article>
+        <article class="feature-item" data-image="/assets/images/backup.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
+            <img src="/assets/icons/backup.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.backup.title')}</h3>
+            <p>{t('features.backup.desc')}</p>
+          </div>
+        </article>
+        <article class="feature-item" data-image="/assets/images/reminders.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffdceb,#ffc2d9);">
+            <img src="/assets/icons/notifications.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.reminders.title')}</h3>
+            <p>{t('features.reminders.desc')}</p>
+          </div>
+        </article>
+        <article class="feature-item" data-image="/assets/images/app-lock.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
+            <img src="/assets/icons/lock.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('features.biometric.title')}</h3>
+            <p>{t('features.biometric.desc')}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" aria-labelledby="benefits-title">
+    <div class="section-head">
+      <h2 id="benefits-title">{t('benefits.title')}</h2>
+    </div>
+    <div class="benefits">
+      <div class="benefit">
+        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
+          <img src="/assets/icons/security.svg" alt="" width="24" height="24" />
+        </div>
+        <h3>{t('benefits.privacy.title')}</h3>
+        <p>{t('benefits.privacy.desc')}</p>
+      </div>
+      <div class="benefit">
+        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
+          <img src="/assets/icons/phone.svg" alt="" width="24" height="24" />
+        </div>
+        <h3>{t('benefits.ondevice.title')}</h3>
+        <p>{t('benefits.ondevice.desc')}</p>
+      </div>
+      <div class="benefit">
+        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
+          <img src="/assets/icons/code.svg" alt="" width="24" height="24" />
+        </div>
+        <h3>{t('benefits.opensource.title')}</h3>
+        <p>
+          {t('benefits.opensource.desc')}
+          <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="founder-note" aria-labelledby="founder-note-title">
+    <div class="section-head">
+      <h2 id="founder-note-title">{t('founder.title')}</h2>
+    </div>
+    <div class="how-it-works-layout">
+      <div class="how-it-works-visual">
+        <img src="/assets/images/portrait.png" alt="Maribel Ferreira, criadora do Bluma" style="width: 70%; height: auto;" />
+      </div>
+      <div class="founder-note-container">
+        <div class="founder-note-content">
+          <p>{t('founder.note1')}</p>
+          <p>{t('founder.note2')}</p>
+        </div>
+        <div class="founder-role">
+          <p><strong>{t('founder.name')}</strong></p>
+          <p>{t('founder.role')}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta" class="cta-section" aria-labelledby="cta-title">
+    <div class="cta-card">
+      <div class="cta-copy">
+        <h2 id="cta-title">{t('cta.title')}</h2>
+        <p class="cta-subhead">{t('cta.subhead')}</p>
+      </div>
+      <div class="cta-row">
+        <a class="cta google" href="https://play.google.com/store/apps/details?id=health.bluma&hl=pt" aria-label="Obtém o Bluma no Google Play">
+          <img src="/assets/images/google-play-badge.svg" alt="Disponível no Google Play" style="height: 54px;" />
+        </a>
+      </div>
+      <p class="cta-helper">{t('cta.ios')}</p>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const featureItems = document.querySelectorAll('.feature-item');
+  const featureImage = document.getElementById('feature-image') as HTMLImageElement;
+  const pagination = document.getElementById('feature-pagination')!;
+
+  featureItems.forEach((item, index) => {
+    const dot = document.createElement('button');
+    dot.className = 'pagination-dot';
+    dot.setAttribute('aria-label', `Funcionalidade ${index + 1}`);
+    if (index === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => setActiveFeature(index));
+    pagination.appendChild(dot);
+  });
+
+  const dots = pagination.querySelectorAll('.pagination-dot');
+
+  function setActiveFeature(index: number) {
+    featureItems.forEach((i) => i.classList.remove('active'));
+    dots.forEach((d) => d.classList.remove('active'));
+    featureItems[index].classList.add('active');
+    dots[index].classList.add('active');
+    featureImage.src = (featureItems[index] as HTMLElement).dataset.image!;
+  }
+
+  featureItems.forEach((item, index) => {
+    item.addEventListener('click', () => setActiveFeature(index));
+  });
+</script>

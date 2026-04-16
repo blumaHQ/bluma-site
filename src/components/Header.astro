@@ -1,0 +1,23 @@
+---
+import { useTranslations, getLocalizedPath, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const homePath = getLocalizedPath(lang, '/');
+---
+
+<header>
+  <div class="container nav">
+    <a class="brand" href={homePath}>
+      <img src="/assets/images/bluma-logo.png" alt="Bluma logo" width="100%" height="auto" />
+    </a>
+    <nav class="header-links" aria-label="Primary">
+      <a href={`${homePath}#features`}>{t('nav.features')}</a>
+      <a href={`${homePath}#benefits`}>{t('nav.why')}</a>
+    </nav>
+  </div>
+</header>

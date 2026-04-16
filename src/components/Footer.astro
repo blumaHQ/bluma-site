@@ -1,0 +1,21 @@
+---
+import { useTranslations, getLocalizedPath, type Lang } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  currentYear: number;
+}
+
+const { lang, currentYear } = Astro.props;
+const t = useTranslations(lang);
+const privacyPath = getLocalizedPath(lang, '/privacy');
+---
+
+<footer>
+  <div class="container footer-wrap">
+    <div>© {currentYear} {t('footer.rights')}</div>
+    <div class="footer-links" role="navigation" aria-label="Footer">
+      <a href={privacyPath}>{t('footer.privacy')}</a>
+    </div>
+  </div>
+</footer>

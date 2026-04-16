@@ -1,0 +1,26 @@
+{
+  "name": "bluma-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blumaHQ/bluma-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blumaHQ/bluma-site/issues"
+  },
+  "homepage": "https://github.com/blumaHQ/bluma-site#readme",
+  "description": "",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.1.7"
+  }
+}
