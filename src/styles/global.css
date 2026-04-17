@@ -585,8 +585,11 @@ footer {
 @media (max-width: 960px) {
   .hero {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 12px;
     text-align: center;
+  }
+  .hero-visual {
+    min-height: 340px;
   }
   .feature-showcase {
     grid-template-columns: 1fr;
@@ -646,6 +649,10 @@ footer {
 
   .hero .cta img {
     height: 44px;
+  }
+
+  .hero-visual {
+    min-height: 300px;
   }
 }
 
