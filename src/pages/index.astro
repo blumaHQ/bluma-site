@@ -15,30 +15,19 @@ const t = useTranslations(lang);
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-content">
       <h1 id="hero-title">{t('hero.title')}</h1>
-      <div class="bullet-grid" role="list">
-        <div class="bullet" role="listitem">
-          <img class="tick" src="/assets/icons/lock-2.svg" alt="" aria-hidden="true" />
-          <span>{t('hero.bullet.local')}</span>
-        </div>
-        <div class="bullet" role="listitem">
-          <img class="tick" src="/assets/icons/block.svg" alt="" aria-hidden="true" />
-          <span>{t('hero.bullet.noads')}</span>
-        </div>
-        <div class="bullet" role="listitem">
-          <img class="tick" src="/assets/icons/shield-2.svg" alt="" aria-hidden="true" />
-          <span>{t('hero.bullet.notracking')}</span>
-        </div>
-        <div class="bullet" role="listitem">
-          <img class="tick" src="/assets/icons/open-source.svg" alt="" aria-hidden="true" />
-          <span>{t('hero.bullet.opensource')}</span>
-        </div>
-      </div>
+      <p class="hero-subcopy">
+        {t('hero.subcopy.line1')}<br />
+        {t('hero.subcopy.line2')}
+      </p>
       <div class="cta-row">
         <a class="cta google" href="https://play.google.com/store/apps/details?id=health.bluma&hl=en" aria-label="Get Bluma on Google Play">
           <img src="/assets/images/google-play-badge.svg" alt="Get it on Google Play" />
         </a>
+        <a class="cta-helper ios-notify" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6V11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+          {t('hero.cta.ios')}
+        </a>
       </div>
-      <p class="cta-helper">{t('hero.cta.ios')}</p>
     </div>
     <div class="hero-visual" aria-hidden="true">
       <img src="/assets/images/hero-image.png" alt="Bluma app homescreen" style="width: 100%; height: auto;" />

@@ -152,6 +152,14 @@ header {
   color: #fff;
 }
 
+.hero-subcopy {
+  margin: 0 0 48px 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height: 1.45;
+  max-width: 60ch;
+}
+
 .bullet-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -187,6 +195,19 @@ header {
 
 .hero .cta-helper {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.ios-notify {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: opacity 160ms ease;
+}
+
+.ios-notify:hover {
+  opacity: 0.75;
 }
 
 .cta {
@@ -599,6 +620,10 @@ footer {
     grid-template-columns: 1fr;
     width: fit-content;
     margin: 0 auto 24px;
+  }
+  .hero-subcopy {
+    margin: 0 auto 24px;
+    background: red;
   }
   .hero h1 {
     margin-bottom: 20px;
