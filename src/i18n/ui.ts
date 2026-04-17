@@ -12,7 +12,7 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'Know your cycle. Keep it to yourself.',
+    'hero.title': 'The period tracker that can’t see your data.',
     'hero.subcopy.line1': 'Everything is stored on your device, encrypted.',
     'hero.subcopy.line2': 'No ads. No trackers. Open source.',
     'hero.bullet.local': 'Data stored locally and encrypted',
