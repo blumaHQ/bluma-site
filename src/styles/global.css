@@ -145,7 +145,7 @@ header {
 .hero h1 {
   font-family: Space Grotesk, Inter, sans-serif;
   font-weight: 900;
-  font-size: clamp(2.125rem, 4.8vw, 4.05rem);
+  font-size: clamp(2.5rem, 5.8vw, 4.75rem);
   line-height: 1.15;
   letter-spacing: -0.5px;
   margin: 0 0 48px 0;
@@ -155,7 +155,7 @@ header {
 .hero-subcopy {
   margin: 0 0 48px 0;
   color: rgba(255, 255, 255, 0.95);
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-size: clamp(1.12rem, 1.8vw, 1.4rem);
   line-height: 1.45;
   max-width: 60ch;
 }
@@ -184,6 +184,7 @@ header {
 .cta-row {
   display: flex;
   flex-wrap: wrap;
+  gap: 16px;
 }
 
 .cta-helper {
@@ -201,13 +202,13 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
   transition: opacity 160ms ease;
+  text-decoration: none;
 }
 
 .ios-notify:hover {
   opacity: 0.75;
+  text-decoration: none;
 }
 
 .cta {
@@ -628,8 +629,24 @@ footer {
     margin-bottom: 20px;
   }
   thead { position: sticky; top: 0; z-index: 1; }
-  .cta-row { flex-direction: column; }
-  .cta { width: 100%; justify-content: center; }
+  .cta-card .cta-row { flex-direction: column; }
+  .cta-card .cta { width: 100%; justify-content: center; }
+
+  .hero .cta-row {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero .cta-helper {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .hero .cta img {
+    height: 44px;
+  }
 }
 
 /* Privacy Policy Styles */

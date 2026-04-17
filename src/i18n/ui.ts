@@ -12,14 +12,14 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'The period tracker that can’t see your data.',
-    'hero.subcopy.line1': 'Everything is stored on your device, encrypted.',
+    'hero.title': 'A vault for your menstrual cycle',
+    'hero.subcopy.line1': 'Everything is stored on your device and encrypted.',
     'hero.subcopy.line2': 'No ads. No trackers. Open source.',
     'hero.bullet.local': 'Data stored locally and encrypted',
     'hero.bullet.noads': 'No ads',
     'hero.bullet.notracking': 'No third-party tracking',
     'hero.bullet.opensource': 'Open source',
-    'hero.cta.ios': 'iOS coming soon - notify me',
+    'hero.cta.ios': 'Notify me for iOS',
     // Features section
     'features.title': 'What can you do with Bluma?',
     'features.track.title': 'Track your cycle',
