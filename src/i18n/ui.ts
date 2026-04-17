@@ -51,7 +51,7 @@ export const ui = {
     // CTA section
     'cta.title': 'Track your cycle without giving anything away',
     'cta.subhead': 'No account, no ads, no data sold. Ever',
-    'cta.ios': 'iOS coming soon!',
+    'cta.ios': 'Notify me for iOS',
     // Footer
     'footer.rights': 'Bluma. All rights reserved.',
     'footer.privacy': 'Privacy Policy',
