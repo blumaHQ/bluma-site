@@ -641,8 +641,26 @@ footer {
     margin-bottom: 20px;
   }
   thead { position: sticky; top: 0; z-index: 1; }
-  .cta-card .cta-row { flex-direction: column; }
-  .cta-card .cta { width: 100%; justify-content: center; }
+  .cta-card .cta-row {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .cta-card .cta-helper {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .cta-card .cta img {
+    height: 44px;
+  }
+
+  .cta-card .cta {
+    width: auto;
+    justify-content: center;
+  }
 
   .hero .cta-row {
     flex-wrap: nowrap;

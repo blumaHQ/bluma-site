@@ -571,8 +571,30 @@ footer {
     grid-template-columns: 1fr;
   }
   thead { position: sticky; top: 0; z-index: 1; }
-  .cta-row { flex-direction: column; }
-  .cta { width: 100%; justify-content: center; }
+
+  .hero .cta-row,
+  .cta-card .cta-row {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero .cta-helper,
+  .cta-card .cta-helper {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .hero .cta img,
+  .cta-card .cta img {
+    height: 44px;
+  }
+
+  .hero .cta,
+  .cta-card .cta {
+    width: auto;
+    justify-content: center;
+  }
   .hero-subcopy {
     margin: 0 auto 24px;
   }
