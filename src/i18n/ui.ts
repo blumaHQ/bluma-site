@@ -19,7 +19,7 @@ export const ui = {
     'hero.bullet.noads': 'No ads',
     'hero.bullet.notracking': 'No third-party tracking',
     'hero.bullet.opensource': 'Open source',
-    'hero.cta.ios': 'iOS coming soon — notify me',
+    'hero.cta.ios': 'iOS coming soon - notify me',
     // Features section
     'features.title': 'What can you do with Bluma?',
     'features.track.title': 'Track your cycle',
