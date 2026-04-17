@@ -622,6 +622,10 @@ footer {
 }
 
 @media (max-width: 640px) {
+  #features .feature-visual {
+    display: none;
+  }
+
   .benefits {
     grid-template-columns: 1fr;
   }
