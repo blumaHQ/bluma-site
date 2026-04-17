@@ -82,6 +82,11 @@ header {
 }
 
 @media (max-width: 640px) {
+  .brand img {
+    height: 28px;
+    width: auto;
+  }
+
   .header-links {
     display: none;
     flex-direction: column;
