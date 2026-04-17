@@ -143,8 +143,8 @@ header {
 }
 
 .hero h1 {
-  font-family: "Bricolage Grotesque", Space Grotesk, Inter, sans-serif;
-  font-weight: 800;
+  font-family: "Bricolage Grotesque", Inter, sans-serif;
+  font-weight: 600;
   font-size: clamp(2.5rem, 5.8vw, 4.75rem);
   line-height: 1.15;
   letter-spacing: -0.5px;
