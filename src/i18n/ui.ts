@@ -13,7 +13,7 @@ export const ui = {
     'nav.why': 'Why Bluma',
     // Hero
     'hero.title': 'A vault for your menstrual cycle',
-    'hero.subcopy.line1': 'Data is stored locally and encrypted.',
+    'hero.subcopy.line1': 'Everything is stored locally and encrypted.',
     'hero.subcopy.line2': 'No ads. No trackers. Open source.',
     'hero.bullet.local': 'Data stored locally and encrypted',
     'hero.bullet.noads': 'No ads',
