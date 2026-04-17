@@ -248,6 +248,10 @@ section {
   padding: 56px 0;
 }
 
+#features {
+  margin-top: 32px;
+}
+
 .cta-section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -563,6 +567,11 @@ footer {
 }
 
 @media (max-width: 640px) {
+  #features {
+    margin-top: 12px;
+    padding-top: 28px;
+  }
+
   #features .feature-visual {
     display: none;
   }
