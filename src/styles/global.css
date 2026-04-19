@@ -165,10 +165,33 @@ header {
   max-width: 60ch;
 }
 
+.hero-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: min(40em, 100%);
+}
+
+.hero-bullet-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1.45em;
+  height: 1.45em;
+  color: #ffc4d6;
+}
+
+.hero-bullet-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .bullet-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 18px 28px;
   margin-bottom: 48px;
 }
 
@@ -176,7 +199,7 @@ header {
   display: flex;
   align-items: center;
   font-size: clamp(1.05rem, 1.6vw, 1.3rem);
-  gap: 8px;
+  gap: 10px;
   color: #fff;
 }
 
@@ -634,8 +657,10 @@ footer {
     width: fit-content;
     margin: 0 auto 24px;
   }
-  .hero-subcopy {
-    margin: 0 auto 24px;
+  .hero-subcopy,
+  .hero-bullets {
+    margin-left: auto;
+    margin-right: auto;
   }
   .hero h1 {
     margin-bottom: 20px;

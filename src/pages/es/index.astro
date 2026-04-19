@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import HeroBullets from '../../components/HeroBullets.astro';
 import { useTranslations } from '../../i18n/utils';
 
 const lang = 'es';
@@ -15,10 +16,7 @@ const t = useTranslations(lang);
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-content">
       <h1 id="hero-title">{t('hero.title')}</h1>
-      <p class="hero-subcopy">
-        {t('hero.subcopy.line1')}<br />
-        {t('hero.subcopy.line2')}
-      </p>
+      <HeroBullets lang={lang} />
       <div class="cta-row">
         <a class="cta google" href="https://play.google.com/store/apps/details?id=health.bluma&hl=es" aria-label="Obtén Bluma en Google Play">
           <img src="/assets/images/google-play-badge.svg" alt="Disponible en Google Play" />
