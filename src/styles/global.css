@@ -658,8 +658,11 @@ footer {
   .bullet-grid {
     grid-template-columns: 1fr 1fr;
     margin: 0 auto 16px;
-    background-color: blue;
     padding: 0 16px;
+  }
+  .bullet-grid .hero-bullet-icon {
+    width: 1.2em;
+    height: 1.2em;
   }
   .hero-subcopy,
   .hero-bullets {
