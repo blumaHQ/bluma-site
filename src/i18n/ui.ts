@@ -15,7 +15,7 @@ export const ui = {
     'hero.title': 'A vault for your menstrual cycle data',
     'hero.subcopy.line1': 'Offline and encrypted.',
     'hero.subcopy.line2': 'No ads. No trackers. Open source.',
-    'hero.bullet.local': 'Offline & encrypted',
+    'hero.bullet.local': 'Offline & encryptedi',
     'hero.bullet.noads': 'No ads',
     'hero.bullet.notracking': 'No trackers',
     'hero.bullet.opensource': 'Open source',
