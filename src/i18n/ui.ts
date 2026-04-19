@@ -17,7 +17,7 @@ export const ui = {
     'hero.subcopy.line2': 'No ads. No trackers. Open source.',
     'hero.bullet.local': 'Offline & encryptedi',
     'hero.bullet.noads': 'No ads',
-    'hero.bullet.notracking': 'No trackers',
+    'hero.bullet.notracking': 'Offline & encryptedi',
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Notify me for iOS',
     // Features section
