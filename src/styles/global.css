@@ -664,6 +664,7 @@ footer {
   }
   .hero h1 {
     margin-bottom: 20px;
+    font-size: clamp(2.125rem, 4.8vw, 3.25rem);
   }
   thead { position: sticky; top: 0; z-index: 1; }
   .cta-card .cta-row {
@@ -805,8 +806,6 @@ footer {
   .privacy-section {
     margin-bottom: 36px;
   }
-  
-
 }
 
 .skip {
