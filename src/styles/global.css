@@ -699,7 +699,6 @@ footer {
   }
   .hero h1 {
     margin-bottom: 32px;
-    font-size: clamp(2.25rem, 5.1vw, 3.4rem);
   }
   thead { position: sticky; top: 0; z-index: 1; }
   .cta-card .cta-row {
