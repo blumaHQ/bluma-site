@@ -616,6 +616,9 @@ footer {
     gap: 12px;
     text-align: center;
   }
+  .hero-bullets {
+    text-align: left;
+  }
   .hero-visual {
     min-height: 340px;
   }
