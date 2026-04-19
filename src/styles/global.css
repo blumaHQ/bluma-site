@@ -653,8 +653,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .bullet-grid {
-    grid-template-columns: 1fr;
-    width: fit-content;
+    grid-template-columns: 1fr 1fr;
     margin: 0 auto 24px;
   }
   .hero-subcopy,
