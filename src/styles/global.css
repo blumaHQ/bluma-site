@@ -169,6 +169,7 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: fit-content;
   max-width: min(40em, 100%);
 }
 
@@ -190,9 +191,15 @@ header {
 
 .bullet-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, max-content);
   gap: 18px 28px;
   margin-bottom: 48px;
+}
+
+@media (min-width: 961px) {
+  .bullet-grid {
+    column-gap: 54px;
+  }
 }
 
 .bullet {
@@ -634,6 +641,7 @@ footer {
   }
   .hero-bullets {
     text-align: left;
+    margin-inline: auto;
   }
   .hero-visual {
     min-height: 340px;
@@ -672,7 +680,7 @@ footer {
     grid-template-columns: 1fr;
   }
   .bullet-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, max-content);
     margin: 0 auto 16px;
   }
 
