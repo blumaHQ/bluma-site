@@ -44,6 +44,7 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  padding: 0 16px;
 }
 
 header {
@@ -774,7 +775,9 @@ footer {
   }
 
   .hero-visual {
-    min-height: 300px;
+    min-height: 240px;
+    width: min(360px, 92vw);
+    margin-inline: auto;
   }
   .how-it-works-layout {
     margin-top: 24px;
