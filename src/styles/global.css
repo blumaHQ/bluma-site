@@ -44,6 +44,7 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 1;
+  background-color: #6b2424;
 }
 
 header {
@@ -408,6 +409,7 @@ h2 {
   gap: 32px;
   align-items: start;
   padding-top: 32px;
+  background-color: red;
 }
 
 .feature-visual {
@@ -417,7 +419,8 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
+  background-color: green;
 }
 
 .feature-visual img {
@@ -683,9 +686,16 @@ footer {
   #features .feature-visual {
     display: none;
   }
+  section {
+    padding: 32px 0;
+  }
 
   .hero-visual {
     margin-bottom: 28px;
+  }
+
+  .feature-showcase {
+    padding-top: 0px;
   }
 
   .benefits {
