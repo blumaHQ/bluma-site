@@ -719,6 +719,7 @@ footer {
   .bullet-grid {
     grid-template-columns: repeat(2, max-content);
     margin: 0 auto 16px;
+    gap: 12px 32px;
   }
 
   .bullet-grid .hero-bullet-icon {
@@ -731,7 +732,7 @@ footer {
     margin-right: auto;
   }
   .hero h1 {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-size: clamp(2.25rem, 5.1vw, 3.4rem);
   }
   thead { position: sticky; top: 0; z-index: 1; }
