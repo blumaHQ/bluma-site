@@ -158,30 +158,36 @@ const t = useTranslations(lang);
 </Layout>
 
 <script>
-  const featureItems = document.querySelectorAll('.feature-item');
-  const featureImage = document.getElementById('feature-image') as HTMLImageElement;
-  const pagination = document.getElementById('feature-pagination')!;
+  (() => {
+    if (window.matchMedia('(max-width: 640px)').matches) return;
 
-  featureItems.forEach((item, index) => {
-    const dot = document.createElement('button');
-    dot.className = 'pagination-dot';
-    dot.setAttribute('aria-label', `Go to feature ${index + 1}`);
-    if (index === 0) dot.classList.add('active');
-    dot.addEventListener('click', () => setActiveFeature(index));
-    pagination.appendChild(dot);
-  });
+    const featureItems = document.querySelectorAll('.feature-item');
+    const featureImage = document.getElementById('feature-image') as HTMLImageElement | null;
+    const pagination = document.getElementById('feature-pagination');
 
-  const dots = pagination.querySelectorAll('.pagination-dot');
+    if (!featureImage || !pagination || featureItems.length === 0) return;
 
-  function setActiveFeature(index: number) {
-    featureItems.forEach((i) => i.classList.remove('active'));
-    dots.forEach((d) => d.classList.remove('active'));
-    featureItems[index].classList.add('active');
-    dots[index].classList.add('active');
-    featureImage.src = (featureItems[index] as HTMLElement).dataset.image!;
-  }
+    featureItems.forEach((_, index) => {
+      const dot = document.createElement('button');
+      dot.className = 'pagination-dot';
+      dot.setAttribute('aria-label', `Go to feature ${index + 1}`);
+      if (index === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => setActiveFeature(index));
+      pagination.appendChild(dot);
+    });
 
-  featureItems.forEach((item, index) => {
-    item.addEventListener('click', () => setActiveFeature(index));
-  });
+    const dots = pagination.querySelectorAll('.pagination-dot');
+
+    function setActiveFeature(index: number) {
+      featureItems.forEach((i) => i.classList.remove('active'));
+      dots.forEach((d) => d.classList.remove('active'));
+      featureItems[index].classList.add('active');
+      dots[index].classList.add('active');
+      featureImage.src = (featureItems[index] as HTMLElement).dataset.image!;
+    }
+
+    featureItems.forEach((item, index) => {
+      item.addEventListener('click', () => setActiveFeature(index));
+    });
+  })();
 </script>
