@@ -44,7 +44,6 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  background-color: #6b2424;
 }
 
 header {
@@ -345,7 +344,7 @@ section {
 
 .cta-card {
   border-radius: var(--radius-lg);
-  padding: 28px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,7 +408,6 @@ h2 {
   gap: 32px;
   align-items: start;
   padding-top: 32px;
-  background-color: red;
 }
 
 .feature-visual {
@@ -683,6 +681,7 @@ footer {
 }
 
 @media (max-width: 640px) {
+
   #features .feature-visual {
     display: none;
   }
@@ -700,6 +699,7 @@ footer {
 
   .benefits {
     grid-template-columns: 1fr;
+    margin-top: 24px;
   }
   .bullet-grid {
     grid-template-columns: repeat(2, max-content);
@@ -759,6 +759,12 @@ footer {
 
   .hero-visual {
     min-height: 300px;
+  }
+  .how-it-works-layout {
+    margin-top: 24px;
+  }
+  .cta-card {
+    padding: 8px;
   }
 }
 
