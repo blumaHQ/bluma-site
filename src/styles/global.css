@@ -39,8 +39,6 @@ body {
   line-height: 1.5;
 }
 
-
-
 .container {
   width: min(1536px, 96vw);
   margin: 0 auto;
@@ -56,6 +54,8 @@ header {
 
 .brand img {
   display: block;
+  height: 32px;
+  width: auto;
 }
 
 .nav {
@@ -83,7 +83,7 @@ header {
 
 @media (max-width: 640px) {
   .brand img {
-    height: 28px;
+    height: 26px;
     width: auto;
   }
 
@@ -157,20 +157,19 @@ header {
   color: #fff;
 }
 
-.hero-subcopy {
-  margin: 0 0 48px 0;
-  color: rgba(255, 255, 255, 0.95);
-  font-size: clamp(1.12rem, 1.8vw, 1.4rem);
-  line-height: 1.45;
-  max-width: 60ch;
-}
-
 .hero-bullets {
   list-style: none;
   padding: 0;
   margin: 0;
   width: fit-content;
   max-width: min(40em, 100%);
+}
+
+.bullet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 20px 32px;
+  margin-bottom: 48px;
 }
 
 .hero-bullet-icon {
@@ -189,16 +188,9 @@ header {
   height: 100%;
 }
 
-.bullet-grid {
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  gap: 18px 28px;
-  margin-bottom: 48px;
-}
-
 @media (min-width: 961px) {
   .bullet-grid {
-    column-gap: 54px;
+    column-gap: 64px;
   }
 }
 
@@ -207,6 +199,7 @@ header {
   align-items: center;
   gap: 6px;
   color: #fff;
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
 }
 
 .bullet .tick {
@@ -218,7 +211,12 @@ header {
 .cta-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  align-items: center;
+  gap: 24px;
+}
+
+.cta-row .cta-helper {
+  margin: 0;
 }
 
 .cta-helper {
@@ -230,6 +228,10 @@ header {
 
 .hero .cta-helper {
   color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-section .cta-helper {
+  color: var(--text);
 }
 
 .ios-notify {
@@ -268,7 +270,6 @@ header {
   display: grid;
   place-items: center;
   min-height: 440px;
-  margin-bottom: 28px;
 }
 
 .mini-grid {
@@ -353,11 +354,19 @@ section {
   margin: 0 auto;
 }
 
+.cta-section .cta-card {
+  gap: 32px;
+}
+
 .cta-copy {
   display: grid;
   gap: 8px;
   justify-items: center;
   max-width: 720px;
+}
+
+.cta-section .cta-copy {
+  gap: 20px;
 }
 
 .cta-subhead {
@@ -675,16 +684,16 @@ footer {
     display: none;
   }
 
+  .hero-visual {
+    margin-bottom: 28px;
+  }
+
   .benefits {
     grid-template-columns: 1fr;
   }
   .bullet-grid {
     grid-template-columns: repeat(2, max-content);
     margin: 0 auto 16px;
-  }
-
-  .bullet-grid .bullet {
-    font-size: clamp(0.95rem, 1.45vw, 1.15rem);
   }
 
   .bullet-grid .hero-bullet-icon {
@@ -697,7 +706,7 @@ footer {
     margin-right: auto;
   }
   .hero h1 {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     font-size: clamp(2.25rem, 5.1vw, 3.4rem);
   }
   thead { position: sticky; top: 0; z-index: 1; }

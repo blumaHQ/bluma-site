@@ -49,8 +49,8 @@ export const ui = {
     'founder.name': 'Maribel Ferreira',
     'founder.role': 'Creator of Bluma',
     // CTA section
-    'cta.title': 'Track your cycle without giving anything away',
-    'cta.subhead': 'No account, no ads, no data sold. Ever',
+    'cta.title': 'Track your cycle without compromising your privacy',
+    'cta.subhead': 'No account, no ads, no data sold',
     'cta.ios': 'Notify me for iOS',
     // Footer
     'footer.rights': 'Bluma. All rights reserved.',
