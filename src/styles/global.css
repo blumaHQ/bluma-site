@@ -606,7 +606,6 @@ footer {
   grid-template-columns: 1fr auto;
   gap: 16px;
   align-items: center;
-  border-top: 1px dashed rgba(42,33,67,0.12);
   padding-top: 20px;
 }
 
