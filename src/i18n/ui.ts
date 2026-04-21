@@ -12,12 +12,10 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'A vault for your menstrual cycle data',
-    'hero.subcopy.line1': 'Offline and encrypted.',
-    'hero.subcopy.line2': 'No ads. No trackers. Open source.',
-    'hero.bullet.local': 'Offline & encrypted',
+    'hero.title': 'Period tracker that doesn\'t share your data',
+    'hero.bullet.local': 'Offline and encrypted',
     'hero.bullet.noads': 'No ads',
-    'hero.bullet.notracking': 'No trackers',
+    'hero.bullet.noaccount': 'No account',
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Notify me for iOS',
     // Features section
