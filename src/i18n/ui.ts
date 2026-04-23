@@ -49,7 +49,7 @@ export const ui = {
     // CTA section
     'cta.title': 'Track your cycle without compromising your privacy',
     'cta.subhead': 'No account, no ads, no data sold',
-    'cta.ios': 'Notify me for iOS',
+    'cta.ios': 'Join the iOS waitlist',
     // Footer
     'footer.rights': 'Bluma. All rights reserved.',
     'footer.privacy': 'Privacy Policy',

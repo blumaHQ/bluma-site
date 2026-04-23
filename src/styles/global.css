@@ -203,6 +203,12 @@ header {
   font-size: clamp(1.05rem, 1.6vw, 1.3rem);
 }
 
+@media (min-width: 961px) {
+  .bullet {
+    gap: 12px;
+  }
+}
+
 .bullet .tick {
   width: 1.4em;
   height: 1.4em;
@@ -734,7 +740,7 @@ footer {
   }
   .hero h1 {
     margin-bottom: 16px;
-    font-size: clamp(2.25rem, 5.1vw, 3.4rem);
+    font-size: clamp(2.1rem, 4.9vw, 3.2rem);
   }
   thead { position: sticky; top: 0; z-index: 1; }
   .cta-card .cta-row {
