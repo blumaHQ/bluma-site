@@ -48,8 +48,18 @@ export const ui = {
     'founder.role': 'Creator of Bluma',
     // CTA section
     'cta.title': 'Track your menstrual cycle without being tracked',
-    'cta.subhead': 'No account, no ads, no third-party tracking.',
+    'cta.subhead': 'Download Bluma for free and stay in full control of your data',
     'cta.ios': 'Join the iOS waitlist',
+    // FAQ section
+    'faq.title': 'Got questions? We\'ve got answers',
+    'faq.q1': 'How does Bluma protect my data and privacy?',
+    'faq.a1': 'Your cycle data is stored on your device and encrypted. Bluma doesn\'t require account creation, and your data is never uploaded to a cloud server or shared with third parties. ',
+    'faq.q2': 'Can I back up my data when changing my phone?',
+    'faq.a2': 'Yes. You can create encrypted backups and restore them on a new device so you don’t lose your history.',
+    'faq.q3': 'Can I use Bluma to track fertility?',
+    'faq.a3': 'Yes, Bluma provides ovulation and fertility window predictions based on your cycle data. However, we recommend consulting with a healthcare provider for family planning or contraception purposes.',
+    'faq.q4': 'How accurate are Bluma’s predictions?',
+    'faq.a4': 'They’re estimates calculated on-device from your logged cycle history (no cloud). If your cycle is regular and you log consistently, predictions can be quite close; if your cycle varies a lot, they’ll be less precise and update as new data is added.',
     // Footer
     'footer.rights': 'Bluma. All rights reserved.',
     'footer.privacy': 'Privacy Policy',
