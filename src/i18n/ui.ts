@@ -12,7 +12,7 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'Period tracker that doesn\'t share your data',
+    'hero.title': 'Period tracker that keeps your data private',
     'hero.bullet.offline': 'Offline and encrypted',
     'hero.bullet.noads': 'No ads',
     'hero.bullet.noaccount': 'No account',
@@ -35,7 +35,7 @@ export const ui = {
     // Benefits section
     'benefits.title': 'Why you\'ll love Bluma',
     'benefits.privacy.title': 'Your data stays yours',
-    'benefits.privacy.desc': 'Everything is stored on your device and encrypted. No cloud, no account, no third-party tracking. There\'s nothing to breach, sell, or share.',
+    'benefits.privacy.desc': 'All your cycle data is stored on your device and fully encrypted, so there\'s nothing to sell, share or expose.',
     'benefits.ondevice.title': 'Simple tracking, zero clutter',
     'benefits.ondevice.desc': 'Privacy apps don\'t have to feel clunky. Bluma is designed to be as easy and pleasant to use as it is private, without the noise of ads and upsells.',
     'benefits.opensource.title': 'Transparency you can verify',
