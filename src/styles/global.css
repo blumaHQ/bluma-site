@@ -349,6 +349,101 @@ section {
   background: linear-gradient(180deg, #fbfaff, #f2efff);
 }
 
+.faq {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: calc((100vw - min(1536px, 96vw)) / 2);
+  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
+  background: linear-gradient(180deg, #fbfaff, #f2efff);
+}
+
+.faq-list {
+  width: min(980px, 100%);
+  margin: 48px auto 0;
+  display: grid;
+  gap: 16px;
+}
+
+.faq-item {
+  background: var(--paper);
+  border: 2px solid rgba(42, 33, 67, 0.08);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+  overflow: clip;
+  transition: box-shadow 200ms ease, border-color 200ms ease, transform 200ms ease;
+}
+
+.faq-item:hover {
+  border-color: rgba(139, 125, 238, 0.22);
+  box-shadow: var(--shadow-2);
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px 24px;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question {
+  font-family: Space Grotesk, Inter, sans-serif;
+  font-weight: 800;
+  color: var(--text);
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  line-height: 1.35;
+}
+
+.faq-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(42, 33, 67, 0.12);
+  display: grid;
+  place-items: center;
+  color: rgba(42, 33, 67, 0.8);
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #ffffff, #fcfbff);
+}
+
+.faq-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.faq-item .icon-minus {
+  display: none;
+}
+
+.faq-item[open] .icon-plus {
+  display: none;
+}
+
+.faq-item[open] .icon-minus {
+  display: block;
+}
+
+.faq-answer {
+  padding: 0 24px 22px;
+}
+
+.faq-answer p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.faq-item summary:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(139, 125, 238, 0.18);
+}
+
 .cta-card {
   border-radius: var(--radius-lg);
   padding: 24px;
@@ -790,6 +885,24 @@ footer {
   }
   .cta-card {
     padding: 8px;
+  }
+
+  .faq-list {
+    margin-top: 24px;
+    gap: 12px;
+  }
+
+  .faq-item summary {
+    padding: 18px 16px;
+  }
+
+  .faq-answer {
+    padding: 0 16px 18px;
+  }
+
+  .faq-icon {
+    width: 36px;
+    height: 36px;
   }
 }
 
