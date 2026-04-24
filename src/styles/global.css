@@ -44,7 +44,7 @@ body {
   margin: 0 auto;
   position: relative;
   z-index: 1;
-  padding: 0 8px;
+  padding: 0 6px;
 }
 
 header {
@@ -345,8 +345,7 @@ section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   padding-left: calc((100vw - min(1536px, 96vw)) / 2);
-  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
-  background: linear-gradient(180deg, #fbfaff, #f2efff);
+  padding-right: calc((100vw - min(1536px, 96vw)) / 2)
 }
 
 .faq {
@@ -701,6 +700,7 @@ h2 {
 footer {
   padding: 32px 0 60px;
   color: var(--muted);
+  background: linear-gradient(180deg, #fbfaff, #f2efff);
 }
 
 .footer-wrap {
