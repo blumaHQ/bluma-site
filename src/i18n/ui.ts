@@ -35,7 +35,7 @@ export const ui = {
     // Benefits section
     'benefits.title': 'Why you\'ll love Bluma',
     'benefits.privacy.title': 'Your data stays yours',
-    'benefits.privacy.desc': 'All your cycle data is stored on your device and fully encrypted, so there\'s nothing to sell, share or expose.',
+    'benefits.privacy.desc': 'All your cycle data is stored on your device and encrypted. With no cloud storage, there\'s nothing to sell, share or leak.',
     'benefits.ondevice.title': 'Simple tracking, zero clutter',
     'benefits.ondevice.desc': 'Privacy apps don\'t have to feel clunky. Bluma is designed to be as easy and pleasant to use as it is private, without the noise of ads and upsells.',
     'benefits.opensource.title': 'Transparency you can verify',
