@@ -20,45 +20,25 @@ CTA 2: Join the iOS waitlist
 
 <h2>Know your body better, privately</h2>
 
-<h3>See what's coming next in your cycle</h3>
+<h3>Track, predict, understand</h3>
 
-Log your periods and get predictions for your next period, ovulation, and fertile window, so you can plan ahead.
+Log your periods to get predictions and gentle reminders for your next period, ovulation, and fertile window — and review your averages and history to learn what's normal for you.
 
 <h3>Spot your body's patterns</h3>
 
-Track symptoms, moods, flow, discharge, and other health markers to identify patterns over time and understand what your body is telling you.
-
-<h3>Understand what's normal for you</h3>
-
-See your cycle averages, variations, and full history to learn your unique rhythm and spot when things change.
+Track symptoms, moods, basal body temperature and other health markers to identify patterns over time and understand what your body is telling you.
 
 <h3>Never lose your data</h3>
 
 Create encrypted backups so you can restore your data anytime.
 
-<h3>Stay ahead of your cycle</h3>
-
-Get gentle reminders before your period, ovulation, and fertile window.
-
-<h3>Add an extra layer of privacy</h3>
-
-Lock the app with your device's biometrics (Face ID or fingerprint).
-
-## Benefits section
-
-<h2>What makes Bluma different</h2>
-
 <h3>Your data stays yours</h3>
 
-Everything is stored on your device and encrypted. With no cloud storage, there's nothing to sell, share or leak.
+Everything you log is encrypted and stays on your device — no cloud, nothing to sell, share, or leak. Lock the app with Face ID or fingerprint, and inspect the [open-source code on GitHub](https://github.com/blumaHQ/bluma-app) to see how it all works.
 
 <h3>Private doesn't mean clunky</h3>
 
 Bluma is designed to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.
-
-<h3>Transparency you can verify</h3>
-
-Bluma’s code is open source on [GitHub](https://github.com/blumaHQ/bluma-app) for anyone to inspect how it works. You don’t have to just take our word for it.
 
 ## Founder note
 
@@ -81,13 +61,13 @@ Your cycle data is stored on your device and encrypted. Bluma doesn't require ac
 
 <h3>Can I back up my data when changing my phone?</h3>
 
-Yes. You can create encrypted backups and restore them on a new device so you don’t lose your history.
+Yes. You can create encrypted backups and restore them on a new device so you don't lose your history.
 
 <h3>Can I use Bluma as a contraception method?</h3>
 
 Use Bluma to understand your cycle, but consult with a healthcare provider for family planning or contraception purposes. Bluma is not a contraception method.
 
-<h3>How accurate are Bluma’s predictions?</h3>
+<h3>How accurate are Bluma's predictions?</h3>
 
 Bluma uses your cycle history to make predictions. Recent cycles have more influence on predictions than older ones. For example, most recent cycle: 100%, second most recent: 80%, third most recent: 60%, and so on.
 
