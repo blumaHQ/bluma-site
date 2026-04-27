@@ -12,10 +12,10 @@ export const ui = {
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
     // Hero
-    'hero.title': 'Period tracker that keeps your data private',
-    'hero.bullet.offline': 'Offline and encrypted',
+    'hero.title': 'Private period tracker that works offline',
+    'hero.bullet.offline': 'Everything stays on your phone and encrypted',
     'hero.bullet.noads': 'No ads',
-    'hero.bullet.noaccount': 'No account',
+    'hero.bullet.noaccount': 'No account needed',
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Join the iOS waitlist',
     // Features section
