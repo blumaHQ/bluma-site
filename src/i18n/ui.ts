@@ -33,7 +33,7 @@ export const ui = {
     'features.biometric.title': 'Add an extra layer of privacy',
     'features.biometric.desc': 'Lock the app with your device\'s biometrics (Face ID or fingerprint) — so only you can open it.',
     // Benefits section
-    'benefits.title': 'Why you\'ll love Bluma',
+    'benefits.title': 'What makes Bluma different',
     'benefits.privacy.title': 'Your data stays yours',
     'benefits.privacy.desc': 'Everything is stored on your device and encrypted. With no cloud storage, there\'s nothing to sell, share or leak.',
     'benefits.ondevice.title': 'Private doesn\'t mean clunky',
@@ -41,7 +41,7 @@ export const ui = {
     'benefits.opensource.title': 'Transparency you can verify',
     'benefits.opensource.desc': 'Bluma’s code is open source on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> for anyone to inspect how it works. You don’t have to just take our word for it.',
     // Founder note
-    'founder.title': 'Built because I needed it too',
+    'founder.title': 'Built from personal need',
     'founder.note1': 'I was concerned about how health data is handled by many period tracking apps. I tried local-first alternatives, but they felt clunky and lacked features I needed.',
     'founder.note2': 'Privacy and a good experience shouldn\'t be a trade-off. So I built Bluma, designed to be a delight to use while keeping your data on your device.',
     'founder.name': 'Maribel Ferreira',
@@ -51,7 +51,7 @@ export const ui = {
     'cta.subhead': 'Download Bluma for free and stay in full control of your data',
     'cta.ios': 'Join the iOS waitlist',
     // FAQ section
-    'faq.title': 'Got questions? We\'ve got answers',
+    'faq.title': 'Frequently asked questions',
     'faq.q1': 'How does Bluma protect my data and privacy?',
     'faq.a1': 'Your cycle data is stored on your device and encrypted. Bluma doesn\'t require account creation, and your data is never uploaded to a cloud server or shared with third parties. ',
     'faq.q2': 'Can I back up my data when changing my phone?',
