@@ -27,6 +27,7 @@ const t = useTranslations(lang);
   </section>
 
   <section id="features" aria-labelledby="features-title">
+    <a id="benefits" aria-hidden="true"></a>
     <div class="section-head">
       <h2 id="features-title">{t('features.title')}</h2>
     </div>
@@ -54,15 +55,6 @@ const t = useTranslations(lang);
             <p>{t('features.symptoms.desc')}</p>
           </div>
         </article>
-        <article class="feature-item" data-image="/assets/images/stats.png">
-          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
-            <img src="/assets/icons/stats.svg" alt="" width="24" height="24" />
-          </div>
-          <div>
-            <h3>{t('features.stats.title')}</h3>
-            <p>{t('features.stats.desc')}</p>
-          </div>
-        </article>
         <article class="feature-item" data-image="/assets/images/backup.png">
           <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
             <img src="/assets/icons/backup.svg" alt="" width="24" height="24" />
@@ -72,55 +64,26 @@ const t = useTranslations(lang);
             <p>{t('features.backup.desc')}</p>
           </div>
         </article>
-        <article class="feature-item" data-image="/assets/images/reminders.png">
-          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffdceb,#ffc2d9);">
-            <img src="/assets/icons/notifications.svg" alt="" width="24" height="24" />
-          </div>
-          <div>
-            <h3>{t('features.reminders.title')}</h3>
-            <p>{t('features.reminders.desc')}</p>
-          </div>
-        </article>
         <article class="feature-item" data-image="/assets/images/app-lock.png">
-          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
-            <img src="/assets/icons/lock.svg" alt="" width="24" height="24" />
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
+            <img src="/assets/icons/security.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.biometric.title')}</h3>
-            <p>{t('features.biometric.desc')}</p>
+            <h3>{t('benefits.privacy.title')}</h3>
+            <p>
+              <span set:html={t('benefits.privacy.desc')} />
+            </p>
           </div>
         </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="benefits" aria-labelledby="benefits-title">
-    <div class="section-head">
-      <h2 id="benefits-title">{t('benefits.title')}</h2>
-    </div>
-    <div class="benefits">
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
-          <img src="/assets/icons/security.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.privacy.title')}</h3>
-        <p>{t('benefits.privacy.desc')}</p>
-      </div>
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
-          <img src="/assets/icons/phone.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.ondevice.title')}</h3>
-        <p>{t('benefits.ondevice.desc')}</p>
-      </div>
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
-          <img src="/assets/icons/code.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.opensource.title')}</h3>
-        <p>
-          <span set:html={t('benefits.opensource.desc')} />
-        </p>
+        <article class="feature-item" data-image="/assets/images/stats.png">
+          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
+            <img src="/assets/icons/phone.svg" alt="" width="24" height="24" />
+          </div>
+          <div>
+            <h3>{t('benefits.ondevice.title')}</h3>
+            <p>{t('benefits.ondevice.desc')}</p>
+          </div>
+        </article>
       </div>
     </div>
   </section>
