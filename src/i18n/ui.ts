@@ -13,9 +13,9 @@ export const ui = {
     'nav.why': 'Why Bluma',
     // Hero
     'hero.title': 'Private period tracker that works offline',
-    'hero.bullet.offline': 'Everything stays on your phone and encrypted',
+    'hero.subtitle': 'Eveything is stored on your device and encryped.',
     'hero.bullet.noads': 'No ads',
-    'hero.bullet.noaccount': 'No account needed',
+    'hero.bullet.noaccount': 'No account',
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Join the iOS waitlist',
     // Features section
