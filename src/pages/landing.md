@@ -18,9 +18,9 @@ CTA 2: Join the iOS waitlist
 
 ## Features section
 
-<h2>Track your cycle effortlessly and privately</h2>
+<h2>Know your body better, privately</h2>
 
-<h3>Know what's coming next</h3>
+<h3>See what's coming next in your cycle</h3>
 
 Log your periods and get predictions for your next period, ovulation, and fertile window, so you can plan ahead.
 
@@ -46,15 +46,15 @@ Lock the app with your device's biometrics (Face ID or fingerprint).
 
 ## Benefits section
 
-<h2>Why you'll love Bluma</h2>
+<h2>What makes Bluma different</h2>
 
 <h3>Your data stays yours</h3>
 
-All your cycle data is stored on your device and encrypted. With no cloud storage, there's nothing to sell, share or leak.
+Everything is stored on your device and encrypted. With no cloud storage, there's nothing to sell, share or leak.
 
-<h3>Simple tracking, zero clutter</h3>
+<h3>Private doesn't mean clunky</h3>
 
-Privacy apps don't have to feel clunky. Bluma is designed to be as easy and pleasant to use as it is private, without the noise of ads and upsells.
+Bluma is designed to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.
 
 <h3>Transparency you can verify</h3>
 
@@ -62,7 +62,7 @@ Bluma’s code is open source on [GitHub](https://github.com/blumaHQ/bluma-app) 
 
 ## Founder note
 
-<h2>Crafted with purpose</h2>
+<h2>Built from personal need</h2>
 
 I was concerned about how health data is handled by many period tracking apps. I tried local-first alternatives, but they felt clunky and lacked features I needed.
 
@@ -73,7 +73,7 @@ Creator of Bluma
 
 ## FAQ section
 
-<h2>Got questions? We've got answers</h2>
+<h2>Frequently asked questions</h2>
 
 <h3>How does Bluma protect my data and privacy?</h3>
 
@@ -83,9 +83,9 @@ Your cycle data is stored on your device and encrypted. Bluma doesn't require ac
 
 Yes. You can create encrypted backups and restore them on a new device so you don’t lose your history.
 
-<h3>Can I use Bluma to track fertility?</h3>
+<h3>Can I use Bluma as a contraception method?</h3>
 
-Yes, Bluma provides ovulation and fertility window predictions based on your cycle data. However, we recommend consulting with a healthcare provider for family planning or contraception purposes.
+Use Bluma to understand your cycle, but consult with a healthcare provider for family planning or contraception purposes. Bluma is not a contraception method.
 
 <h3>How accurate are Bluma’s predictions?</h3>
 
