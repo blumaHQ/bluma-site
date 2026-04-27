@@ -23,7 +23,7 @@ export const ui = {
     'features.track.title': 'See what\'s coming next in your cycle',
     'features.track.desc': 'Log your periods and get predictions for your next period, ovulation, and fertile window, so you can plan ahead.',
     'features.symptoms.title': 'Spot your body\'s patterns',
-    'features.symptoms.desc': 'Track symptoms, moods, flow, discharge, and other health markers to identify patterns over time and understand what your body is telling you.',
+    'features.symptoms.desc': 'Track symptoms, moods, basal body temperature and other health markers to identify patterns over time and understand what your body is telling you.',
     'features.stats.title': 'Understand what\'s normal for you',
     'features.stats.desc': 'See your cycle averages, variations, and full history to learn your unique rhythm and spot when things change.',
     'features.backup.title': 'Never lose your data',
