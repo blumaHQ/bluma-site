@@ -290,7 +290,6 @@ header {
   grid-template-columns: repeat(7, 1fr);
   gap: 6px;
   padding: 14px 16px 10px;
-  background-color: #6b2424;
 }
 
 .dot {
@@ -835,7 +834,7 @@ footer {
   .bullet-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0 auto 16px;
-    gap: 10px 14px;
+    gap: 10px 8px;
     justify-items: center;
   }
 
@@ -845,7 +844,7 @@ footer {
   }
   .bullet-grid .bullet {
     white-space: nowrap;
-    font-size: 1rem;
+    font-size: 0.85rem;
     gap: 8px;
   }
   .hero-subcopy,
