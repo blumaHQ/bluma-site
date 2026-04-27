@@ -19,7 +19,7 @@ export const ui = {
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Join the iOS waitlist',
     // Features section
-    'features.title': 'Track your cycle with confidence',
+    'features.title': 'Track your cycle effortlessly and privately',
     'features.track.title': 'Know what\'s coming next',
     'features.track.desc': 'Log your periods and get predictions for your next period, ovulation, and fertile window, so you can plan ahead.',
     'features.symptoms.title': 'Spot your body\'s patterns',
