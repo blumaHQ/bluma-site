@@ -6,12 +6,10 @@ import { useTranslations } from '../i18n/utils';
 
 const lang = 'en';
 const t = useTranslations(lang);
-const iosWaitlistHref =
-  'mailto:help.bluma@gmail.com?subject=Bluma%20iOS%20waitlist&body=Please%20email%20me%20when%20Bluma%20is%20available%20on%20iOS.%0A%0A(Optional)%20Country%2FTimezone%3A';
 ---
 
 <Layout
-  title="Bluma - Bluma — Private period tracker that works offline"
+  title="Bluma - Private period tracker that works offline"
   description="Bluma is a private period tracker that stores your data on your device. Track periods, ovulation & symptoms offline. No account needed. No ads. Open source."
   lang={lang}
   canonicalPath="/"
@@ -21,7 +19,7 @@ const iosWaitlistHref =
       <h1 id="hero-title">{t('hero.title')}</h1>
       <p class="hero-subtitle">{t('hero.subtitle')}</p>
       <HeroBullets lang={lang} />
-      <StoreCtaRow iosText={t('hero.cta.ios')} iosHref={iosWaitlistHref} />
+      <StoreCtaRow iosText={t('hero.cta.ios')} />
     </div>
     <div class="hero-visual" aria-hidden="true">
       <img src="/assets/images/hero-image.png" alt="Bluma app homescreen" style="width: 100%; height: auto;" />
@@ -230,7 +228,7 @@ const iosWaitlistHref =
         <h2 id="cta-title">{t('cta.title')}</h2>
         <p class="cta-subhead">{t('cta.subhead')}</p>
       </div>
-      <StoreCtaRow iosText={t('cta.ios')} iosHref={iosWaitlistHref} />
+      <StoreCtaRow iosText={t('cta.ios')} />
     </div>
   </section>
 </Layout>
