@@ -5,10 +5,10 @@ description: English copy for the Bluma landing page.
 
 ## Hero section
 
-<h1>Period tracker that keeps your data private</h1>
+<h1>Private period tracker that works offline</h1>
 
-subcopy:
-- Offline and encrypted
+<p>Most period apps send your data to a server. Bluma doesn't.</p>
+
 - No account
 - No ads
 - Open source
@@ -18,7 +18,7 @@ CTA 2: Join the iOS waitlist
 
 ## Features section
 
-<h2>Track your cycle with confidence</h2>
+<h2>Track your cycle effortlessly and privately</h2>
 
 <h3>Know what's coming next</h3>
 

@@ -13,7 +13,7 @@ export const ui = {
     'nav.why': 'Why Bluma',
     // Hero
     'hero.title': 'Private period tracker that works offline',
-    'hero.subtitle': 'Eveything is stored on your device and encryped.',
+    'hero.subtitle': 'Most period apps send your data to a server. Bluma doesn\'t.',
     'hero.bullet.noads': 'No ads',
     'hero.bullet.noaccount': 'No account',
     'hero.bullet.opensource': 'Open source',
