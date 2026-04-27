@@ -751,14 +751,17 @@ footer {
   .hero h1 {
     order: 1;
   }
-  .hero .hero-bullets {
+  .hero .hero-subtitle {
     order: 2;
   }
-  .hero .hero-visual {
+  .hero .hero-bullets {
     order: 3;
   }
-  .hero .cta-row {
+  .hero .hero-visual {
     order: 4;
+  }
+  .hero .cta-row {
+    order: 5;
   }
   .hero-bullets {
     text-align: left;
@@ -830,14 +833,20 @@ footer {
     margin-top: 24px;
   }
   .bullet-grid {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0 auto 16px;
-    gap: 12px 32px;
+    gap: 10px 14px;
+    justify-items: center;
   }
 
   .bullet-grid .hero-bullet-icon {
     width: 1.2em;
     height: 1.2em;
+  }
+  .bullet-grid .bullet {
+    white-space: nowrap;
+    font-size: 1rem;
+    gap: 8px;
   }
   .hero-subcopy,
   .hero-bullets {
@@ -847,6 +856,10 @@ footer {
   .hero h1 {
     margin-bottom: 16px;
     font-size: clamp(2.1rem, 4.9vw, 3.2rem);
+  }
+  .hero-subtitle {
+    font-size: clamp(1.05rem, 3.6vw, 1.2rem);
+    margin-bottom: 16px;
   }
   thead { position: sticky; top: 0; z-index: 1; }
   .cta-card .cta-row {
