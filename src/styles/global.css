@@ -438,6 +438,10 @@ section {
   margin: 0;
 }
 
+.faq-answer p + p {
+  margin-top: 16px;
+}
+
 .faq-item summary:focus-visible {
   outline: 0;
   box-shadow: 0 0 0 4px rgba(139, 125, 238, 0.18);
