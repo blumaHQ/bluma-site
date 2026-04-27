@@ -42,7 +42,7 @@ export const ui = {
     'benefits.opensource.desc': 'Bluma’s code is open source on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> for anyone to inspect how it works. You don’t have to just take our word for it.',
     // Founder note
     'founder.title': 'Built from personal need',
-    'founder.note1': 'I was concerned about how health data is handled by many period tracking apps. I tried local-first alternatives, but they felt clunky and lacked features I needed.',
+    'founder.note1': 'I was concerned about how health data is handled by many period tracking apps. I tried local-storage alternatives, but they felt clunky and lacked features I needed.',
     'founder.note2': 'Privacy and a good experience shouldn\'t be a trade-off. So I built Bluma, designed to be a delight to use while keeping your data on your device.',
     'founder.name': 'Maribel Ferreira',
     'founder.role': 'Creator of Bluma',
