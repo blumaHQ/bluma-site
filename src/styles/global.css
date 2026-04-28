@@ -346,6 +346,14 @@ section {
   padding: 56px 0;
 }
 
+#founder-note {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: calc((100vw - min(1536px, 96vw)) / 2);
+  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
+  background: linear-gradient(180deg, #fbfaff, #f2efff);
+}
+
 .cta-section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -358,7 +366,6 @@ section {
   margin-left: calc(50% - 50vw);
   padding-left: calc((100vw - min(1536px, 96vw)) / 2);
   padding-right: calc((100vw - min(1536px, 96vw)) / 2);
-  background: linear-gradient(180deg, #fbfaff, #f2efff);
 }
 
 .faq-list {
@@ -653,6 +660,7 @@ h2 {
 
 .check { color: #1f9d63; font-weight: 900; }
 .dash { color: #8f88a8; font-weight: 900; }
+
 
 .founder-note-content p {
   font-size: clamp(1.05rem, 2vw, 1.46rem);
