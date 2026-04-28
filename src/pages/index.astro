@@ -15,22 +15,22 @@ const t = useTranslations(lang);
   canonicalPath="/"
 >
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-content">
+    <div class="hero-content" data-animate style="--reveal-delay: 60ms;">
       <h1 id="hero-title">{t('hero.title')}</h1>
       <p class="hero-subtitle">{t('hero.subtitle')}</p>
       <HeroBullets lang={lang} />
       <StoreCtaRow iosText={t('hero.cta.ios')} />
     </div>
-    <div class="hero-visual" aria-hidden="true">
+    <div class="hero-visual" aria-hidden="true" data-animate="scale-in" style="--reveal-delay: 140ms;">
       <img src="/assets/images/hero-image.png" alt="Bluma app homescreen" style="width: 100%; height: auto;" />
     </div>
   </section>
 
   <section id="features" aria-labelledby="features-title">
-    <div class="section-head">
+    <div class="section-head" data-animate>
       <h2 id="features-title">{t('features.title')}</h2>
     </div>
-    <div class="feature-showcase">
+    <div class="feature-showcase" data-animate style="--reveal-delay: 80ms;">
       <div class="feature-visual">
         <img id="feature-image" src="/assets/images/tracking.png" alt="Feature preview" />
         <div class="feature-pagination" id="feature-pagination"></div>
@@ -88,10 +88,10 @@ const t = useTranslations(lang);
   </section>
 
   <section id="founder-note" aria-labelledby="founder-note-title">
-    <div class="section-head">
+    <div class="section-head" data-animate>
       <h2 id="founder-note-title">{t('founder.title')}</h2>
     </div>
-    <div class="how-it-works-layout">
+    <div class="how-it-works-layout" data-animate style="--reveal-delay: 80ms;">
       <div class="how-it-works-visual">
         <img src="/assets/images/portrait.png" alt="Maribel Ferreira, creator of Bluma" style="width: 70%; height: auto;" />
       </div>
@@ -109,10 +109,10 @@ const t = useTranslations(lang);
   </section>
 
   <section id="faq" class="faq" aria-labelledby="faq-title">
-    <div class="section-head">
+    <div class="section-head" data-animate>
       <h2 id="faq-title">{t('faq.title')}</h2>
     </div>
-    <div class="faq-list">
+    <div class="faq-list" data-animate style="--reveal-delay: 80ms;">
       <details class="faq-item">
         <summary>
           <span class="faq-question">{t('faq.q1')}</span>
@@ -185,7 +185,7 @@ const t = useTranslations(lang);
   </section>
 
   <section id="cta" class="cta-section" aria-labelledby="cta-title">
-    <div class="cta-card">
+    <div class="cta-card" data-animate="scale-in">
       <div class="cta-copy">
         <h2 id="cta-title">{t('cta.title')}</h2>
         <p class="cta-subhead">{t('cta.subhead')}</p>
@@ -227,5 +227,33 @@ const t = useTranslations(lang);
     featureItems.forEach((item, index) => {
       item.addEventListener('click', () => setActiveFeature(index));
     });
+  })();
+
+  (() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const animated = Array.from(document.querySelectorAll<HTMLElement>('[data-animate]'));
+    if (animated.length === 0) return;
+
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+      animated.forEach((el) => el.classList.add('is-visible'));
+      return;
+    }
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          (entry.target as HTMLElement).classList.add('is-visible');
+          io.unobserve(entry.target);
+        }
+      },
+      {
+        root: null,
+        threshold: 0.15,
+        rootMargin: '0px 0px -10% 0px',
+      },
+    );
+
+    animated.forEach((el) => io.observe(el));
   })();
 </script>
