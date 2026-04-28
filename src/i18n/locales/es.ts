@@ -2,6 +2,7 @@ export const es = {
   // Nav
   'nav.features': 'Funcionalidades',
   'nav.why': 'Por qué Bluma',
+  'nav.faqs': 'FAQs',
 
   // Hero
   'hero.title': 'Calendario menstrual que mantiene tus datos privados',

@@ -2,6 +2,7 @@ export const en = {
   // Nav
   'nav.features': 'Features',
   'nav.why': 'Why Bluma',
+  'nav.faqs': 'FAQs',
 
   // Hero
   'hero.title': 'Private period tracker that works offline',

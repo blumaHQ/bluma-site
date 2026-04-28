@@ -2,6 +2,7 @@ export const pt = {
   // Nav
   'nav.features': 'Funcionalidades',
   'nav.why': 'Por que Bluma',
+  'nav.faqs': 'FAQs',
 
   // Hero
   'hero.title': 'Rastreador de ciclo que mantém seus dados privados',
