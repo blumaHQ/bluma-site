@@ -1,7 +1,7 @@
 export const en = {
   // Nav
   'nav.features': 'Features',
-  'nav.why': 'Why Bluma',
+  'nav.story': 'Story',
   'nav.faqs': 'FAQs',
 
   // Hero
