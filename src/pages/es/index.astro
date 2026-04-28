@@ -47,8 +47,8 @@ const t = useTranslations(lang);
             <img src="/assets/icons/calendar.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.track.title')}</h3>
-            <p>{t('features.track.desc')}</p>
+            <h3>{t('feature1.title')}</h3>
+            <p>{t('feature1.desc')}</p>
           </div>
         </article>
         <article class="feature-item" data-image="/assets/images/symptom-tracking.png">
@@ -56,8 +56,8 @@ const t = useTranslations(lang);
             <img src="/assets/icons/mood.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.symptoms.title')}</h3>
-            <p>{t('features.symptoms.desc')}</p>
+            <h3>{t('feature2.title')}</h3>
+            <p>{t('feature2.desc')}</p>
           </div>
         </article>
         <article class="feature-item" data-image="/assets/images/stats.png">
@@ -65,8 +65,10 @@ const t = useTranslations(lang);
             <img src="/assets/icons/stats.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.stats.title')}</h3>
-            <p>{t('features.stats.desc')}</p>
+            <h3>{t('feature3.title')}</h3>
+            <p>
+              <span set:html={t('feature3.desc')} />
+            </p>
           </div>
         </article>
         <article class="feature-item" data-image="/assets/images/backup.png">
@@ -74,8 +76,8 @@ const t = useTranslations(lang);
             <img src="/assets/icons/backup.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.backup.title')}</h3>
-            <p>{t('features.backup.desc')}</p>
+            <h3>{t('feature4.title')}</h3>
+            <p>{t('feature4.desc')}</p>
           </div>
         </article>
         <article class="feature-item" data-image="/assets/images/reminders.png">
@@ -83,50 +85,10 @@ const t = useTranslations(lang);
             <img src="/assets/icons/notifications.svg" alt="" width="24" height="24" />
           </div>
           <div>
-            <h3>{t('features.reminders.title')}</h3>
-            <p>{t('features.reminders.desc')}</p>
+            <h3>{t('feature5.title')}</h3>
+            <p>{t('feature5.desc')}</p>
           </div>
         </article>
-        <article class="feature-item" data-image="/assets/images/app-lock.png">
-          <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#e8f1ff,#cfe6ff);">
-            <img src="/assets/icons/lock.svg" alt="" width="24" height="24" />
-          </div>
-          <div>
-            <h3>{t('features.biometric.title')}</h3>
-            <p>{t('features.biometric.desc')}</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="benefits" aria-labelledby="benefits-title">
-    <div class="section-head">
-      <h2 id="benefits-title">{t('benefits.title')}</h2>
-    </div>
-    <div class="benefits">
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#dff6ff,#bde6ff);">
-          <img src="/assets/icons/security.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.privacy.title')}</h3>
-        <p>{t('benefits.privacy.desc')}</p>
-      </div>
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#ffe8f1,#ffd3e6);">
-          <img src="/assets/icons/phone.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.ondevice.title')}</h3>
-        <p>{t('benefits.ondevice.desc')}</p>
-      </div>
-      <div class="benefit">
-        <div class="icon" aria-hidden="true" style="background: linear-gradient(180deg,#efeaff,#ddd6ff);">
-          <img src="/assets/icons/code.svg" alt="" width="24" height="24" />
-        </div>
-        <h3>{t('benefits.opensource.title')}</h3>
-        <p>
-          <span set:html={t('benefits.opensource.desc')} />
-        </p>
       </div>
     </div>
   </section>
@@ -152,7 +114,7 @@ const t = useTranslations(lang);
     </div>
   </section>
 
-  <section id="faq" class="faq" aria-labelledby="faq-title">
+  <section id="faqs" class="faq" aria-labelledby="faq-title">
     <div class="section-head">
       <h2 id="faq-title">{t('faq.title')}</h2>
     </div>

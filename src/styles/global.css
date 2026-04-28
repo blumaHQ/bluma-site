@@ -3,6 +3,7 @@
   --paper: #ffffff;
   --text: #2b2440;
   --muted: #5a5570;
+  --font-heading: "Space Grotesk", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 
   --pink-50: #fdebf2;
   --pink-200: #f9cadd;
@@ -37,6 +38,41 @@ body {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   color: var(--text);
   line-height: 1.5;
+}
+
+.js [data-animate] {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0);
+  transition:
+    opacity 700ms cubic-bezier(0.21, 0.95, 0.35, 1),
+    transform 700ms cubic-bezier(0.21, 0.95, 0.35, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.js [data-animate]:not(.is-visible) {
+  will-change: opacity, transform;
+}
+
+.js [data-animate="fade-in"] {
+  transform: none;
+}
+
+.js [data-animate="scale-in"] {
+  transform: scale(0.985);
+}
+
+.js [data-animate].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-animate] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
 }
 
 .container {
@@ -244,7 +280,15 @@ header {
 }
 
 .cta-section .cta-helper {
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-section h2 {
+  color: #fff;
+}
+
+.cta-section p {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .ios-notify {
@@ -343,14 +387,23 @@ header {
 .orb.blue { background: radial-gradient(circle at 30% 30%, #d8ecff, #a9d0ff 60%, transparent 70%); width: 140px; height: 140px; top: 30%; left: 10%; }
 
 section {
-  padding: 56px 0;
+  padding: 80px 0;
+}
+
+#founder-note {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: calc((100vw - min(1536px, 96vw)) / 2);
+  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
+  background: linear-gradient(180deg, #fbfaff, #f2efff);
 }
 
 .cta-section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   padding-left: calc((100vw - min(1536px, 96vw)) / 2);
-  padding-right: calc((100vw - min(1536px, 96vw)) / 2)
+  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
+  background: #475ECB;
 }
 
 .faq {
@@ -358,7 +411,6 @@ section {
   margin-left: calc(50% - 50vw);
   padding-left: calc((100vw - min(1536px, 96vw)) / 2);
   padding-right: calc((100vw - min(1536px, 96vw)) / 2);
-  background: linear-gradient(180deg, #fbfaff, #f2efff);
 }
 
 .faq-list {
@@ -464,26 +516,25 @@ section {
   margin: 0 auto;
 }
 
-.cta-section .cta-card {
-  gap: 32px;
-}
-
 .cta-copy {
   display: grid;
   gap: 8px;
   justify-items: center;
   max-width: 720px;
+  margin-bottom: 24px;
 }
 
 .cta-section .cta-copy {
   gap: 20px;
 }
 
-.cta-subhead {
-  margin: 0;
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
-  line-height: 1.6;
-  max-width: 60ch;
+/* only affects the cta title -> subhead spacing */
+.cta-copy #cta-title + .cta-subhead {
+  margin-top: 16px; /* tweak */
+}
+
+.cta-copy .cta-subhead {
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
 }
 
 .section-head {
@@ -618,48 +669,6 @@ h2 {
   font-size: clamp(1rem, 1.4vw, 1.125rem);
 }
 
-#benefits {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  padding-left: calc((100vw - min(1536px, 96vw)) / 2);
-  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
-  background-color: #fbfaff;
-}
-
-.benefits {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-top: 48px;
-  padding: 0 8px;
-}
-
-.benefit {
-  background: linear-gradient(180deg, #ffffff, #fcfbff);
-  border: 1px solid rgba(42, 33, 67, 0.08);
-  border-radius: var(--radius-lg);
-  padding: 22px;
-  box-shadow: var(--shadow-1);
-  display: grid;
-  gap: 10px;
-}
-
-.benefit .icon {
-  width: 40px; 
-  height: 40px;
-  border-radius: 10px;
-  display: grid; 
-  place-items: center;
-  background: linear-gradient(180deg, var(--lav-200), #efeaff);
-  color: var(--ink);
-}
-
-.benefit h3 {
-  font-family: Space Grotesk, Inter, sans-serif;
-  margin: 0;
-  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
-}
-
   .how-it-works-layout {
     display: grid;
     grid-template-columns: 0.85fr 1.15fr;
@@ -695,6 +704,7 @@ h2 {
 
 .check { color: #1f9d63; font-weight: 900; }
 .dash { color: #8f88a8; font-weight: 900; }
+
 
 .founder-note-content p {
   font-size: clamp(1.05rem, 2vw, 1.46rem);
@@ -777,9 +787,7 @@ footer {
     position: relative;
     top: 0;
   }
-  .benefits {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   .how-it-works-layout {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -827,10 +835,6 @@ footer {
     padding-top: 0px;
   }
 
-  .benefits {
-    grid-template-columns: 1fr;
-    margin-top: 24px;
-  }
   .bullet-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0 auto 16px;
@@ -1042,4 +1046,14 @@ footer {
   background: #fff;
   border: 2px solid var(--accent);
   border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.hero h1,
+.faq-question,
+.feature-item h3,
+.mini-title,
+.privacy-hero h1,
+.privacy-section h2 {
+  font-family: var(--font-heading);
 }

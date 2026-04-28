@@ -29,7 +29,8 @@ const normalizedBase = basePath === '' ? '/' : basePath;
     </button>
     <nav class="header-links" id="primary-nav" aria-label="Primary">
       <a href={`${homePath}#features`}>{t('nav.features')}</a>
-      <a href={`${homePath}#benefits`}>{t('nav.why')}</a>
+      <a href={`${homePath}#founder-note`}>{t('nav.story')}</a>
+      <a href={`${homePath}#faqs`}>{t('nav.faqs')}</a>
       <details class="lang-dropdown">
         <summary aria-label="Select language">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
@@ -56,6 +57,7 @@ const normalizedBase = basePath === '' ? '/' : basePath;
 <script>
   const btn = document.getElementById('hamburger-btn')!;
   const nav = document.getElementById('primary-nav')!;
+  const langDropdown = nav.querySelector<HTMLDetailsElement>('.lang-dropdown');
 
   btn.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('open');
@@ -68,6 +70,27 @@ const normalizedBase = basePath === '' ? '/' : basePath;
       btn.setAttribute('aria-expanded', 'false');
     });
   });
+
+  if (langDropdown) {
+    document.addEventListener(
+      'pointerdown',
+      (e) => {
+        if (!langDropdown.hasAttribute('open')) return;
+        const target = e.target;
+        if (!(target instanceof Node)) return;
+        if (langDropdown.contains(target)) return;
+        langDropdown.removeAttribute('open');
+      },
+      { capture: true }
+    );
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      if (!langDropdown.hasAttribute('open')) return;
+      langDropdown.removeAttribute('open');
+      langDropdown.querySelector<HTMLElement>('summary')?.focus();
+    });
+  }
 </script>
 
 <style>
