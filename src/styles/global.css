@@ -2,7 +2,7 @@
   --bg: #fbfaff;
   --paper: #ffffff;
   --text: #2b2440;
-  --muted: #5a5570;
+  --muted: #433f57;
   --font-heading: "Space Grotesk", Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 
   --pink-50: #fdebf2;
@@ -660,7 +660,7 @@ h2 {
 
 .feature-item h3 {
   font-family: Space Grotesk, Inter, sans-serif;
-  font-size: clamp(1.1rem, 1.6vw, 1.313rem);
+  font-size: clamp(1.24rem, 1.85vw, 1.5rem);
   margin: 0 0 6px;
 }
 

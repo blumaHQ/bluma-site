@@ -19,7 +19,7 @@ export const en = {
     "Log your periods to get predictions and reminders for your next period, ovulation, and fertile window — and review your averages and history to learn what's normal for you.",
   'feature2.title': "Spot your body's patterns",
   'feature2.desc':
-    "Track symptoms, moods, basal body temperature and other health markers to identify patterns over time and understand what your body is telling you.",
+    "Track symptoms, moods, flow and other health markers to identify patterns over time and understand what your body is telling you.",
   'feature3.title': 'Your data stays yours',
   'feature3.desc':
     'Everything you log is encrypted and stays on your device — no cloud, nothing to sell, share, or leak. Lock the app with Face ID or fingerprint, and inspect the open source code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> to see how it all works.',
