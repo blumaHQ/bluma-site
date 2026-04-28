@@ -297,6 +297,9 @@ header {
   gap: 6px;
   transition: opacity 160ms ease;
   text-decoration: none;
+  max-width: 100%;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .ios-notify:hover {
@@ -890,15 +893,25 @@ footer {
   }
 
   .hero .cta-row {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 12px;
   }
 
+  .hero .cta-row .cta.google {
+    flex: 0 0 auto;
+  }
+
   .hero .cta-helper {
     margin: 0;
-    white-space: nowrap;
+    white-space: normal;
+    max-width: 100%;
+    min-width: 0;
+    text-wrap: balance;
+    flex: 0 1 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .hero .cta img {
