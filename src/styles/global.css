@@ -40,6 +40,10 @@ body {
   line-height: 1.5;
 }
 
+/* OS-targeted CTAs (defaults to "show both") */
+.js.os-ios .only-android { display: none !important; }
+.js.os-android .only-ios { display: none !important; }
+
 .js [data-animate] {
   opacity: 0;
   transform: translate3d(0, 14px, 0);
