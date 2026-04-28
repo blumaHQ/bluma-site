@@ -22,7 +22,7 @@ export const en = {
     "Track symptoms, moods, flow and other health markers to identify patterns over time and understand what your body is telling you.",
   'feature3.title': 'Your data stays yours',
   'feature3.desc':
-    'Everything you log is encrypted and stays on your device — no cloud, nothing to sell, share, or leak. Lock the app with Face ID or fingerprint, and inspect the open source code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> to see how it all works.',
+    'Everything you log is encrypted and stays on your device. No cloud, nothing to sell or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
   'feature4.title': 'Never lose your data',
   'feature4.desc': 'Create encrypted backups so you can restore your data anytime.',
   'feature5.title': "Private doesn't mean clunky",
