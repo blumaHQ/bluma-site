@@ -618,48 +618,6 @@ h2 {
   font-size: clamp(1rem, 1.4vw, 1.125rem);
 }
 
-#benefits {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  padding-left: calc((100vw - min(1536px, 96vw)) / 2);
-  padding-right: calc((100vw - min(1536px, 96vw)) / 2);
-  background-color: #fbfaff;
-}
-
-.benefits {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-top: 48px;
-  padding: 0 8px;
-}
-
-.benefit {
-  background: linear-gradient(180deg, #ffffff, #fcfbff);
-  border: 1px solid rgba(42, 33, 67, 0.08);
-  border-radius: var(--radius-lg);
-  padding: 22px;
-  box-shadow: var(--shadow-1);
-  display: grid;
-  gap: 10px;
-}
-
-.benefit .icon {
-  width: 40px; 
-  height: 40px;
-  border-radius: 10px;
-  display: grid; 
-  place-items: center;
-  background: linear-gradient(180deg, var(--lav-200), #efeaff);
-  color: var(--ink);
-}
-
-.benefit h3 {
-  font-family: Space Grotesk, Inter, sans-serif;
-  margin: 0;
-  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
-}
-
   .how-it-works-layout {
     display: grid;
     grid-template-columns: 0.85fr 1.15fr;
@@ -777,9 +735,7 @@ footer {
     position: relative;
     top: 0;
   }
-  .benefits {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   .how-it-works-layout {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -827,10 +783,6 @@ footer {
     padding-top: 0px;
   }
 
-  .benefits {
-    grid-template-columns: 1fr;
-    margin-top: 24px;
-  }
   .bullet-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0 auto 16px;
