@@ -5,7 +5,7 @@ export const pt = {
   'nav.faqs': 'Perguntas frequentes',
 
   // Hero
-  'hero.title': 'Rastreador de ciclo que mantém seus dados privados',
+  'hero.title': 'Rastreador do ciclo menstrual que funciona offline',
   'hero.bullet.offline': 'Offline e criptografado',
   'hero.bullet.noads': 'Sem anúncios',
   'hero.bullet.noaccount': 'Sem conta',

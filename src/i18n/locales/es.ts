@@ -5,7 +5,7 @@ export const es = {
   'nav.faqs': 'Preguntas frecuentes',
 
   // Hero
-  'hero.title': 'Calendario menstrual que mantiene tus datos privados',
+  'hero.title': 'Rastreador de periodo que funciona offline',
   'hero.bullet.offline': 'Offline y encriptado',
   'hero.bullet.noads': 'Sin anuncios',
   'hero.bullet.noaccount': 'Sin cuenta',
