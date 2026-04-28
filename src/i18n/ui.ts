@@ -11,6 +11,7 @@ export const ui = {
     // Nav
     'nav.features': 'Features',
     'nav.why': 'Why Bluma',
+
     // Hero
     'hero.title': 'Private period tracker that works offline',
     'hero.subtitle': 'Most period apps send your data to a server. Bluma doesn\'t.',
@@ -18,38 +19,32 @@ export const ui = {
     'hero.bullet.noaccount': 'No account',
     'hero.bullet.opensource': 'Open source',
     'hero.cta.ios': 'Join the iOS waitlist',
+
     // Features section
     'features.title': 'Know your body better, privately',
-    'features.track.title': 'See what\'s coming next in your cycle',
-    'features.track.desc': 'Log your periods and get predictions for your next period, ovulation, and fertile window, so you can plan ahead.',
-    'features.symptoms.title': 'Spot your body\'s patterns',
-    'features.symptoms.desc': 'Track symptoms, moods, basal body temperature and other health markers to identify patterns over time and understand what your body is telling you.',
-    'features.stats.title': 'Understand what\'s normal for you',
-    'features.stats.desc': 'See your cycle averages, variations, and full history to learn your unique rhythm and spot when things change.',
-    'features.backup.title': 'Never lose your data',
-    'features.backup.desc': 'Create encrypted backups so you can restore your data anytime.',
-    'features.reminders.title': 'Stay ahead of your cycle',
-    'features.reminders.desc': 'Get gentle reminders before your period, ovulation, and fertile window.',
-    'features.biometric.title': 'Add an extra layer of privacy',
-    'features.biometric.desc': 'Lock the app with your device\'s biometrics (Face ID or fingerprint).',
-    // Benefits section
-    'benefits.title': 'What makes Bluma different',
-    'benefits.privacy.title': 'Your data stays yours',
-    'benefits.privacy.desc': 'Everything is stored on your device and encrypted. With no cloud storage, there\'s nothing to sell, share or leak.',
-    'benefits.ondevice.title': 'Private doesn\'t mean clunky',
-    'benefits.ondevice.desc': 'Bluma is designed to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.',
-    'benefits.opensource.title': 'Transparency you can verify',
-    'benefits.opensource.desc': 'Bluma’s code is open source on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> for anyone to inspect how it works. You don’t have to just take our word for it.',
+    'feature1.title': 'Track, predict, understand',
+    'feature1.desc': 'Log your periods to get predictions and reminders for your next period, ovulation, and fertile window — and review your averages and history to learn what\'s normal for you.',
+    'feature2.title': 'Spot your body\'s patterns',
+    'feature2.desc': 'Track symptoms, moods, basal body temperature and other health markers to identify patterns over time and understand what your body is telling you.',
+    'feature3.title': 'Your data stays yours',
+    'feature3.desc': 'Everything you log is encrypted and stays on your device — no cloud, nothing to sell, share, or leak. Lock the app with Face ID or fingerprint, and inspect the <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">open-source code on GitHub</a> to see how it all works.',
+    'feature4.title': 'Never lose your data',
+    'feature4.desc': 'Create encrypted backups so you can restore your data anytime.',
+    'feature5.title': 'Private doesn\'t mean clunky',
+    'feature5.desc': 'Bluma is designed to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.',
+  
     // Founder note
     'founder.title': 'Built from personal need',
     'founder.note1': 'I was concerned about how health data is handled by many period tracking apps. I tried local-storage alternatives, but they felt clunky and lacked features I needed.',
     'founder.note2': 'Privacy and a good experience shouldn\'t be a trade-off. So I built Bluma, designed to be a delight to use while keeping your data on your device.',
     'founder.name': 'Maribel Ferreira',
     'founder.role': 'Creator of Bluma',
+
     // CTA section
     'cta.title': 'Track your menstrual cycle without being tracked',
     'cta.subhead': 'Download Bluma for free and stay in full control of your data',
     'cta.ios': 'Join the iOS waitlist',
+
     // FAQ section
     'faq.title': 'Frequently asked questions',
     'faq.q1': 'Does Bluma work without an internet connection?',
@@ -61,9 +56,11 @@ export const ui = {
     'faq.q4': 'How accurate are Bluma’s predictions?',
     'faq.a4.p1': 'Bluma uses your cycle history to make predictions. Recent cycles have more influence on predictions than older ones.',
     'faq.a4.p2': 'With 3+ cycles, Bluma can provide better predictions, so the more data you log, the more accurate the predictions will be. All calculations are done on your device.',
+    
     // Footer
     'footer.rights': 'Bluma. All rights reserved.',
     'footer.privacy': 'Privacy Policy',
+    
     // Privacy page
     'privacy.title': 'Privacy Policy',
     'privacy.meta.desc': 'Bluma\'s privacy policy. Your data stays on your device. No tracking, no ads, no data collection.',
@@ -102,8 +99,11 @@ export const ui = {
     'privacy.contact.text': 'If you have any questions about this privacy policy or how we handle your data, please contact us at',
   },
   pt: {
+    // Nav
     'nav.features': 'Funcionalidades',
     'nav.why': 'Por que Bluma',
+
+    // Hero
     'hero.title': 'Rastreador de ciclo que mantém seus dados privados',
     'hero.bullet.offline': 'Offline e criptografado',
     'hero.bullet.noads': 'Sem anúncios',
@@ -111,33 +111,30 @@ export const ui = {
     'hero.bullet.opensource': 'Código aberto',
     'hero.cta.ios': 'Junte-se à lista de espera do iOS',
     'features.title': 'Rastreie seu ciclo com confiança',
-    'features.track.title': 'Saiba o que vem por aí',
-    'features.track.desc': 'Registre suas menstruações e receba previsões para sua próxima menstruação, ovulação e janela fértil, para que você possa se planejar.',
+    'feature1.title': 'Saiba o que vem por aí',
+    'feature1.desc': 'Registre suas menstruações e receba previsões para sua próxima menstruação, ovulação e janela fértil, para que você possa se planejar.',
     'features.symptoms.title': 'Identifique os padrões do seu corpo',
-    'features.symptoms.desc': 'Rastreie sintomas, humores, fluxo, corrimento e outros marcadores de saúde para identificar padrões ao longo do tempo e entender o que seu corpo está dizendo.',
-    'features.stats.title': 'Entenda o que é normal para você',
-    'features.stats.desc': 'Veja suas médias de ciclo, variações e histórico completo para aprender seu ritmo único e identificar quando algo muda.',
-    'features.backup.title': 'Nunca perca seus dados',
-    'features.backup.desc': 'Crie backups criptografados para poder restaurar seus dados a qualquer momento.',
+    'feature2.desc': 'Rastreie sintomas, humores, fluxo, corrimento e outros marcadores de saúde para identificar padrões ao longo do tempo e entender o que seu corpo está dizendo.',
+    'feature3.title': 'Entenda o que é normal para você',
+    'feature3.desc': 'Veja suas médias de ciclo, variações e histórico completo para aprender seu ritmo único e identificar quando algo muda.',
+    'feature4.title': 'Nunca perca seus dados',
+    'feature4.desc': 'Crie backups criptografados para poder restaurar seus dados a qualquer momento.',
     'features.reminders.title': 'Fique à frente do seu ciclo',
-    'features.reminders.desc': 'Receba lembretes suaves antes da sua menstruação, ovulação e janela fértil.',
-    'features.biometric.title': 'Adicione uma camada extra de privacidade',
-    'features.biometric.desc': 'Bloqueie o app com a biometria do seu dispositivo (Face ID ou impressão digital).',
-    'benefits.title': 'Por que você vai amar o Bluma',
-    'benefits.privacy.title': 'Seus dados continuam seus',
-    'benefits.privacy.desc': 'Todos os seus dados de ciclo ficam armazenados no seu dispositivo e criptografados. Sem armazenamento na nuvem, não há nada para vender, compartilhar ou vazar.',
-    'benefits.ondevice.title': 'Rastreamento simples',
-    'benefits.ondevice.desc': 'Apps de privacidade não precisam ser complicados. O Bluma é projetado para ser tão fácil e agradável de usar quanto privado, sem a poluição de anúncios e vendas.',
-    'benefits.opensource.title': 'Transparência que você pode verificar',
-    'benefits.opensource.desc': 'O código do Bluma é open source no <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> para qualquer pessoa inspecionar como funciona. Você não precisa apenas acreditar na nossa palavra.',
-    'founder.title': 'Criado com propósito',
+    'feature5.title': 'Fique à frente do seu ciclo',
+    'feature5.desc': 'Receba lembretes suaves antes da sua menstruação, ovulação e janela fértil.',
+    
+    // Founder note
     'founder.note1': 'Eu estava preocupada com a forma como os dados de saúde são tratados por muitos apps de rastreamento menstrual. Tentei alternativas local-first, mas pareciam complicadas e faltavam funcionalidades que eu precisava.',
     'founder.note2': 'Privacidade e uma boa experiência não deveriam ser uma escolha entre um ou outro. Então eu criei o Bluma, projetado para ser um prazer de usar enquanto mantém seus dados no seu dispositivo.',
     'founder.name': 'Maribel Ferreira',
     'founder.role': 'Criadora do Bluma',
+
+    // CTA section
     'cta.title': 'Rastreie seu ciclo menstrual sem ser rastreada',
     'cta.subhead': 'Baixe o Bluma gratuitamente e mantenha controle total dos seus dados',
     'cta.ios': 'Junte-se à lista de espera do iOS',
+
+    // FAQ section
     'faq.title': 'Tem dúvidas? Nós temos respostas',
     'faq.q1': 'Como o Bluma protege meus dados e privacidade?',
     'faq.a1': 'Seus dados de ciclo ficam armazenados no seu dispositivo e criptografados. O Bluma não exige criação de conta, e seus dados nunca são enviados para um servidor na nuvem ou compartilhados com terceiros.',
@@ -150,6 +147,8 @@ export const ui = {
     'faq.a4.p2': 'Com 3+ ciclos, o Bluma consegue oferecer previsões melhores — então quanto mais dados você registrar, mais precisas as previsões tendem a ser. Todos os cálculos são feitos no seu dispositivo. Seus dados de menstruação nunca saem do seu celular e nunca são compartilhados com ninguém.',
     'footer.rights': 'Bluma. Todos os direitos reservados.',
     'footer.privacy': 'Política de Privacidade',
+
+    // Privacy page
     'privacy.title': 'Política de Privacidade',
     'privacy.meta.desc': 'Política de privacidade do Bluma. Seus dados ficam no seu dispositivo. Sem rastreamento, sem anúncios, sem coleta de dados.',
     'privacy.updated': 'Última atualização:',
@@ -187,42 +186,44 @@ export const ui = {
     'privacy.contact.text': 'Se você tiver alguma dúvida sobre esta política de privacidade ou como tratamos seus dados, entre em contato conosco em',
   },
   es: {
+    // Nav
     'nav.features': 'Funcionalidades',
     'nav.why': 'Por qué Bluma',
+
+    // Hero
     'hero.title': 'Calendario menstrual que mantiene tus datos privados',
     'hero.bullet.offline': 'Offline y encriptado',
     'hero.bullet.noads': 'Sin anuncios',
     'hero.bullet.noaccount': 'Sin cuenta',
     'hero.bullet.opensource': 'Código abierto',
     'hero.cta.ios': 'Únete a la lista de espera de iOS',
+
+    // Features section
     'features.title': 'Rastrea tu ciclo con confianza',
-    'features.track.title': 'Mantén el control de tu ciclo',
-    'features.track.desc': 'Registra tus periodos y obtén predicciones para tu próximo periodo, ovulación y ventana fértil, para que puedas planificarte.',
-    'features.symptoms.title': 'Identifica los patrones de tu cuerpo',
-    'features.symptoms.desc': 'Rastrea síntomas, estados de ánimo, flujo menstrual y otros marcadores de salud para identificar patrones con el tiempo y entender qué te está diciendo tu cuerpo.',
-    'features.stats.title': 'Entiende qué es normal para ti',
-    'features.stats.desc': 'Consulta tus promedios de ciclo, variaciones e historial completo para aprender tu ritmo único e identificar cuándo algo cambia.',
-    'features.backup.title': 'No pierdas nunca tus datos',
-    'features.backup.desc': 'Crea copias de seguridad encriptadas para poder restaurar tus datos en cualquier momento.',
-    'features.reminders.title': 'Anticípate a tu ciclo',
-    'features.reminders.desc': 'Recibe recordatorios antes de tu periodo, ovulación y ventana fértil.',
-    'features.biometric.title': 'Añade una capa extra de privacidad',
-    'features.biometric.desc': 'Bloquea la app con la biometría de tu dispositivo (Face ID o huella dactilar).',
-    'benefits.title': 'Por qué te encantará Bluma',
-    'benefits.privacy.title': 'Tus datos siguen siendo tuyos',
-    'benefits.privacy.desc': 'Todos tus datos de ciclo se almacenan en tu dispositivo y están encriptados. Sin almacenamiento en la nube, no hay nada que vender, compartir o filtrar.',
-    'benefits.ondevice.title': 'Seguimiento simple',
-    'benefits.ondevice.desc': 'Las apps de privacidad no tienen que ser complicadas. Bluma está diseñada para ser tan fácil y agradable de usar como privada, sin anuncios publicitarios ni ventas.',
-    'benefits.opensource.title': 'Transparencia que puedes verificar',
-    'benefits.opensource.desc': 'El código de Bluma es open source en <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a> para que cualquiera pueda inspeccionar cómo funciona. No tienes que fiarte solo de nuestra palabra.',
+    'feature1.title': 'Mantén el control de tu ciclo',
+    'feature1.desc': 'Registra tus periodos y obtén predicciones para tu próximo periodo, ovulación y ventana fértil, para que puedas planificarte.',
+    'feature2.title': 'Identifica los patrones de tu cuerpo',
+    'feature2.desc': 'Rastrea síntomas, estados de ánimo, flujo menstrual y otros marcadores de salud para identificar patrones con el tiempo y entender qué te está diciendo tu cuerpo.',
+    'feature3.title': 'Entiende qué es normal para ti',
+    'feature3.desc': 'Consulta tus promedios de ciclo, variaciones e historial completo para aprender tu ritmo único e identificar cuándo algo cambia.',
+    'feature4.title': 'No pierdas nunca tus datos',
+    'feature4.desc': 'Crea copias de seguridad encriptadas para poder restaurar tus datos en cualquier momento.',
+    'feature5.title': 'Anticípate a tu ciclo',
+    'feature5.desc': 'Recibe recordatorios antes de tu periodo, ovulación y ventana fértil.',
+
+    // Founder note
     'founder.title': 'Creado con propósito',
     'founder.note1': 'Me preocupaba cómo muchas apps de seguimiento menstrual manejan los datos de salud. Probé alternativas local-first, pero parecían complicadas y les faltaban funciones que necesitaba.',
     'founder.note2': 'La privacidad y una buena experiencia no deberían ser una elección entre una u otra. Así que creé Bluma, diseñada para ser un placer de usar mientras mantiene tus datos en tu dispositivo.',
     'founder.name': 'Maribel Ferreira',
     'founder.role': 'Creadora de Bluma',
+
+    // CTA section
     'cta.title': 'Rastrea tu ciclo menstrual sin ser rastreada',
     'cta.subhead': 'Descarga Bluma gratis y mantén el control total de tus datos',
     'cta.ios': 'Únete a la lista de espera de iOS',
+
+    // FAQ section
     'faq.title': '¿Tienes dudas? Tenemos respuestas',
     'faq.q1': '¿Cómo protege Bluma mis datos y privacidad?',
     'faq.a1': 'Tus datos de ciclo se almacenan en tu dispositivo y están encriptados. Bluma no requiere creación de cuenta, y tus datos nunca se suben a un servidor en la nube ni se comparten con terceros.',
@@ -233,8 +234,12 @@ export const ui = {
     'faq.q4': '¿Qué precisión tienen las predicciones de Bluma?',
     'faq.a4.p1': 'Bluma usa tu historial de ciclos para hacer predicciones. Los ciclos más recientes influyen más que los antiguos. Por ejemplo: el ciclo más reciente: 100%, el segundo más reciente: 80%, el tercero más reciente: 60%, y así sucesivamente.',
     'faq.a4.p2': 'Con 3+ ciclos, Bluma puede ofrecer mejores predicciones, así que cuanto más registres, más precisas tienden a ser. Todos los cálculos se hacen en tu dispositivo. Tus datos de menstruación nunca salen de tu teléfono y nunca se comparten con nadie.',
+    
+    // Footer
     'footer.rights': 'Bluma. Todos los derechos reservados.',
     'footer.privacy': 'Política de Privacidad',
+
+    // Privacy page
     'privacy.title': 'Política de Privacidad',
     'privacy.meta.desc': 'Política de privacidad de Bluma. Tus datos permanecen en tu dispositivo. Sin rastreo, sin anuncios, sin recopilación de datos.',
     'privacy.updated': 'Última actualización:',
