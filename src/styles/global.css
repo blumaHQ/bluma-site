@@ -705,6 +705,9 @@ h2 {
 .check { color: #1f9d63; font-weight: 900; }
 .dash { color: #8f88a8; font-weight: 900; }
 
+.founder-note-container {
+ padding: 0px 8px;
+}
 
 .founder-note-content p {
   font-size: clamp(1.05rem, 2vw, 1.46rem);
