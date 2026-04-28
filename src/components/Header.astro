@@ -57,6 +57,7 @@ const normalizedBase = basePath === '' ? '/' : basePath;
 <script>
   const btn = document.getElementById('hamburger-btn')!;
   const nav = document.getElementById('primary-nav')!;
+  const langDropdown = nav.querySelector<HTMLDetailsElement>('.lang-dropdown');
 
   btn.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('open');
@@ -69,6 +70,27 @@ const normalizedBase = basePath === '' ? '/' : basePath;
       btn.setAttribute('aria-expanded', 'false');
     });
   });
+
+  if (langDropdown) {
+    document.addEventListener(
+      'pointerdown',
+      (e) => {
+        if (!langDropdown.hasAttribute('open')) return;
+        const target = e.target;
+        if (!(target instanceof Node)) return;
+        if (langDropdown.contains(target)) return;
+        langDropdown.removeAttribute('open');
+      },
+      { capture: true }
+    );
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      if (!langDropdown.hasAttribute('open')) return;
+      langDropdown.removeAttribute('open');
+      langDropdown.querySelector<HTMLElement>('summary')?.focus();
+    });
+  }
 </script>
 
 <style>
