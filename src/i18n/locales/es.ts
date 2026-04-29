@@ -1,8 +1,8 @@
 export const es = {
   // Home meta
-  'home.meta.title': 'Bluma - Monitor de menstruación privado que funciona sin conexión',
+  'home.meta.title': 'Bluma - Monitor de periodo privado que funciona sin conexión',
   'home.meta.desc':
-    'Bluma es un monitor de menstruación privado que guarda tus datos en tu dispositivo. Registra periodos, ovulación y síntomas sin conexión. Sin cuenta. Sin anuncios. Código abierto.',
+    'Bluma es un monitor de periodo privado que guarda tus datos en tu dispositivo. Registra periodos, ovulación y síntomas. Sin cuenta. Sin anuncios. Código abierto.',
 
   // Nav
   'nav.features': 'Funcionalidades',
@@ -10,8 +10,8 @@ export const es = {
   'nav.faqs': 'Preguntas frecuentes',
 
   // Hero
-  'hero.title': 'Monitor de menstruación privado que funciona sin conexión',
-  'hero.subtitle': 'La mayoría de las apps de menstruación envían tus datos a un servidor. Bluma no.',
+  'hero.title': 'Calendario menstrual privado que funciona offline',
+  'hero.subtitle': 'La mayoría de las apps que rastrean el periodo envían tus datos a un servidor. Bluma no.',
   'hero.bullet.noads': 'Sin anuncios',
   'hero.bullet.noaccount': 'Sin cuenta',
   'hero.bullet.opensource': 'Código abierto',

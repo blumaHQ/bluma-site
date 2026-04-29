@@ -11,7 +11,7 @@ export const pt = {
 
   // Hero
   'hero.title': 'Monitor de menstruação privado que funciona offline',
-  'hero.subtitle': 'A maioria das apps de menstruação envia os teus dados para um servidor. O Bluma não.',
+  'hero.subtitle': 'A maioria das apps que monitorizam o ciclo menstrual enviam os teus dados para um servidor. O Bluma não.',
   'hero.bullet.noads': 'Sem anúncios',
   'hero.bullet.noaccount': 'Sem conta',
   'hero.bullet.opensource': 'Código aberto',
@@ -37,9 +37,9 @@ export const pt = {
   // Founder note
   'founder.title': 'Feito por necessidade pessoal',
   'founder.note1':
-    'Eu estava preocupada com a forma como muitos apps de menstruação tratam dados de saúde. Experimentei alternativas que guardavam tudo no dispositivo, mas eram pouco práticas e faltavam funcionalidades de que precisava.',
+    'Eu estava preocupada com a forma como muitos apps de menstruação tratam dados de saúde. Experimentei alternativas que guardavam tudo no dispositivo, mas eram complicadas e faltavam funcionalidades de que precisava.',
   'founder.note2':
-    'Privacidade e uma boa experiência não deviam ser um compromisso. Por isso criei o Bluma: simples de usar e com os teus dados sempre no teu dispositivo.',
+    'Privacidade e uma boa experiência não deviam ser um compromisso. Por isso criei o Bluma, pensado para ser simples e agradável de usar enquanto os teus dados ficam no teu dispositivo.',
   'founder.name': 'Maribel Ferreira',
   'founder.role': 'Criadora do Bluma',
 
