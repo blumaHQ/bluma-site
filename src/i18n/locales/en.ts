@@ -19,20 +19,20 @@ export const en = {
 
   // Features section
   'features.title': 'Know your body better, privately',
-  'feature1.title': 'Track, predict, understand',
+  'feature1.title': 'Stay one step ahead',
   'feature1.desc':
-    "Log your periods to get predictions and reminders for your next period, ovulation, and fertile window, and review your averages and history to learn what's normal for you.",
-  'feature2.title': "Spot your body's patterns",
+    "Log your period dates and see predictions for future periods, ovulation, and fertile window, with reminders before each one arrives.",
+  'feature2.title': "Learn what's normal for your body",
   'feature2.desc':
-    "Track symptoms, moods, and other health markers to identify patterns over time and understand what your body is telling you.",
+    "Track symptoms, moods and other health markers to identify patterns over time, and notice when something's out of the ordinary.",
   'feature3.title': 'Your data stays yours',
   'feature3.desc':
-    'Everything you log is encrypted and stays on your device. No cloud, nothing to sell, share, or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
+    'Everything you log is encrypted and stored on your device. No cloud, nothing to sell, share, or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
   'feature4.title': 'Never lose your data',
-  'feature4.desc': 'Create encrypted backups so you can restore your data anytime.',
+  'feature4.desc': 'Create encrypted backups anytime and restore them if you ever change phones.',
   'feature5.title': "Private doesn't mean clunky",
   'feature5.desc':
-    'Bluma is designed to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.',
+    'Bluma is built to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.',
 
   // Founder note
   'founder.title': 'Built from personal need',
