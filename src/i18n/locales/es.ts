@@ -55,11 +55,17 @@ export const es = {
   'faq.q3': '¿Puedo usar Bluma para rastrear la fertilidad?',
   'faq.a3':
     'Sí, Bluma proporciona predicciones de ovulación y ventana fértil basadas en tus datos de ciclo. Sin embargo, recomendamos consultar con un profesional sanitario para fines de planificación familiar o anticoncepción.',
+  'faq.a3.p2':
+    'Estas estimaciones están pensadas para ayudarte a conocer mejor tu ciclo. No deben usarse como un método fiable para prevenir ni planificar un embarazo. Para anticoncepción o planificación familiar, consulta con un profesional de la salud.',
   'faq.q4': '¿Qué precisión tienen las predicciones de Bluma?',
   'faq.a4.p1':
     'Bluma usa tu historial de ciclos para hacer predicciones. Los ciclos más recientes influyen más que los antiguos. Por ejemplo: el ciclo más reciente: 100%, el segundo más reciente: 80%, el tercero más reciente: 60%, y así sucesivamente.',
   'faq.a4.p2':
     'Con 3+ ciclos, Bluma puede ofrecer mejores predicciones, así que cuanto más registres, más precisas tienden a ser. Todos los cálculos se hacen en tu dispositivo. Tus datos de menstruación nunca salen de tu teléfono y nunca se comparten con nadie.',
+  'faq.a4.p3':
+    'Después de aproximadamente tres ciclos, las predicciones pueden volverse más consistentes. Aun así, la precisión puede variar de un ciclo a otro, y las predicciones deben considerarse como una guía, no como una certeza.',
+  'faq.q5': '¿Bluma está disponible en iOS?',
+  'faq.a5': 'Bluma llegará a iOS. Únete a la lista de espera de iOS para recibir una notificación cuando esté disponible.',
 
   // Footer
   'footer.rights': 'Bluma. Todos los derechos reservados.',

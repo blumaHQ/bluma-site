@@ -16,10 +16,10 @@ export const en = {
   'features.title': 'Know your body better, privately',
   'feature1.title': 'Track, predict, understand',
   'feature1.desc':
-    "Log your periods to get predictions and reminders for your next period, ovulation, and fertile window — and review your averages and history to learn what's normal for you.",
+    "Log your periods to get predictions and reminders for your next period, ovulation, and fertile window, and review your averages and history to learn what's normal for you.",
   'feature2.title': "Spot your body's patterns",
   'feature2.desc':
-    "Track symptoms, moods, flow and other health markers to identify patterns over time and understand what your body is telling you.",
+    "Track symptoms, moods, and other health markers to identify patterns over time and understand what your body is telling you.",
   'feature3.title': 'Your data stays yours',
   'feature3.desc':
     'Everything you log is encrypted and stays on your device. No cloud, nothing to sell, share, or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
@@ -47,18 +47,22 @@ export const en = {
   'faq.title': 'Frequently asked questions',
   'faq.q1': 'Does Bluma work without an internet connection?',
   'faq.a1':
-    "Yes. Everything in Bluma works offline — tracking, predictions, backups. You don't need a Wi-Fi or mobile connection to use it.",
+    "Yes. Everything in Bluma works fully offline. No internet connection is required.",
   'faq.q2': 'What happens to my data if I uninstall the app?',
   'faq.a2':
     "Your data lives only on your device. If you uninstall Bluma without creating a backup first, that data is gone, there's no server copy to recover it from.",
   'faq.q3': 'Can I use Bluma as a contraception method?',
   'faq.a3':
-    "Bluma shows predictions for your fertile window and ovulation based on your cycle history, and you can log signs like basal body temperature and cervical mucus to better understand your body. But these are estimates to help you learn your patterns — not a reliable method for preventing or planning pregnancy. For contraception or family planning, please speak with a healthcare provider",
+    "No. Bluma should not be used as a contraception method. It can help you estimate your fertile window and ovulation based on your cycle history, along with signs like basal body temperature and cervical mucus.",
+  'faq.a3.p2':
+    'These insights are meant to help you learn more about your menstrual cycle. For contraception or family planning, please speak with a healthcare provider.',
   'faq.q4': 'How accurate are Bluma’s predictions?',
   'faq.a4.p1':
-    'Bluma uses your cycle history to make predictions. Recent cycles have more influence on predictions than older ones.',
+    'Bluma uses your cycle history to estimate your next period, fertile window, and ovulation. Recent cycles have more influence on estimates than older ones.',
   'faq.a4.p2':
-    'With 3+ cycles, Bluma can provide better predictions, so the more data you log, the more accurate the predictions will be. All calculations are done on your device.',
+    'After about three cycles, predictions become more consistent. Accuracy can still vary from cycle to cycle, so these estimates should be used as guidance. All calculations happen on your device.',
+  'faq.q5': 'Is Bluma available on iOS?',
+  'faq.a5': 'Bluma is coming soon to iOS. Join the waitlist to be notified when it becomes available.',
 
   // Footer
   'footer.rights': 'Bluma. All rights reserved.',
