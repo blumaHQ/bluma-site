@@ -22,9 +22,9 @@ export const en = {
   'feature1.title': 'Never be caught off guard',
   'feature1.desc':
     "Log your period dates and get predictions for future periods, ovulation, and fertile window, with optional reminders before each one arrives.",
-  'feature2.title': "Learn what's normal for your body",
+  'feature2.title': "Spot your body's patterns",
   'feature2.desc':
-    "Track symptoms, moods and other health markers to identify patterns over time, and notice when something's out of the ordinary.",
+    "Track symptoms, moods and other health markers to identify patterns over time, and notice when something's off.",
   'feature3.title': 'Your data stays yours',
   'feature3.desc':
     'Everything you log is encrypted and stored on your device. No cloud, nothing to sell, share, or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
@@ -32,7 +32,7 @@ export const en = {
   'feature4.desc': 'Create encrypted backups anytime and restore them if you ever change phones.',
   'feature5.title': "Private doesn't mean clunky",
   'feature5.desc':
-    'Bluma is built to be as easy and enjoyable to use as it is private, without the noise of ads and upsells.',
+    'Bluma is built to be as easy and enjoyable to use as it is private. No ads, no upsells, nothing to interrupt you.',
 
   // Founder note
   'founder.title': 'Built from personal need',

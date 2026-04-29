@@ -22,7 +22,7 @@ export const pt = {
   'feature1.title': 'Antecipa-te',
   'feature1.desc':
     'Regista as datas da tua menstruação e vê previsões de futuros períodos, ovulação e janela fértil, com lembretes antes de cada um chegar.',
-  'feature2.title': 'Descobre o que é normal para o teu corpo',
+  'feature2.title': 'Descobre padrões no teu corpo',
   'feature2.desc':
     'Regista sintomas, estados de humor e outros indicadores de saúde para identificar padrões ao longo do tempo, e notar quando algo está fora do normal.',
   'feature3.title': 'Os teus dados ficam contigo',
