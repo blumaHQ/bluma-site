@@ -19,17 +19,17 @@ export const pt = {
 
   // Features section
   'features.title': 'Conhece melhor o teu corpo, com privacidade',
-  'feature1.title': 'Regista, prevê, compreende',
+  'feature1.title': 'Antecipa-te',
   'feature1.desc':
-    'Regista a tua menstruação para receber previsões e lembretes para a próxima menstruação, a ovulação e a janela fértil, e revê as tuas médias e histórico para perceberes o que é normal para ti.',
-  'feature2.title': 'Deteta padrões no teu corpo',
+    'Regista as datas da tua menstruação e vê previsões de futuros períodos, ovulação e janela fértil, com lembretes antes de cada um chegar.',
+  'feature2.title': 'Descobre o que é normal para o teu corpo',
   'feature2.desc':
-    'Regista sintomas, humor e outros indicadores de saúde para identificar padrões ao longo do tempo e perceber o que o teu corpo te está a dizer.',
+    'Regista sintomas, estados de humor e outros indicadores de saúde para identificar padrões ao longo do tempo, e notar quando algo está fora do normal.',
   'feature3.title': 'Os teus dados ficam contigo',
   'feature3.desc':
     'Tudo o que registas é encriptado e fica no teu dispositivo. Sem cloud, nada para vender, partilhar ou deixar exposto. Bloqueia a app com biometria e consulta o código no <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
   'feature4.title': 'Não percas os teus dados',
-  'feature4.desc': 'Cria cópias de segurança encriptadas para poderes repor os teus dados a qualquer momento.',
+  'feature4.desc': 'Cria cópias de segurança encriptadas a qualquer momento e restaura-as se mudares de telemóvel.',
   'feature5.title': 'Privado não tem de ser complicado',
   'feature5.desc':
     'O Bluma foi pensado para ser simples e agradável de usar, sem o ruído de anúncios nem tentativas de venda.',

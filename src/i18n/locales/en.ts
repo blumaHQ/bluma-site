@@ -19,9 +19,9 @@ export const en = {
 
   // Features section
   'features.title': 'Know your body better, privately',
-  'feature1.title': 'Stay one step ahead',
+  'feature1.title': 'Never be caught off guard',
   'feature1.desc':
-    "Log your period dates and see predictions for future periods, ovulation, and fertile window, with reminders before each one arrives.",
+    "Log your period dates and get predictions for future periods, ovulation, and fertile window, with optional reminders before each one arrives.",
   'feature2.title': "Learn what's normal for your body",
   'feature2.desc':
     "Track symptoms, moods and other health markers to identify patterns over time, and notice when something's out of the ordinary.",
