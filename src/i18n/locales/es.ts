@@ -1,4 +1,9 @@
 export const es = {
+  // Home meta
+  'home.meta.title': 'Bluma — Rastreador de ciclo que se queda en tu dispositivo',
+  'home.meta.desc':
+    'Bluma es una app gratuita de seguimiento menstrual con privacidad ante todo. Tus datos se quedan en tu dispositivo. Sin registros, sin anuncios, sin rastreo.',
+
   // Nav
   'nav.features': 'Funcionalidades',
   'nav.story': 'Historia',
@@ -6,6 +11,7 @@ export const es = {
 
   // Hero
   'hero.title': 'Rastreador de periodo que funciona offline',
+  'hero.subtitle': 'La mayoría de apps de seguimiento menstrual envían tus datos a un servidor. Bluma no.',
   'hero.bullet.offline': 'Offline y encriptado',
   'hero.bullet.noads': 'Sin anuncios',
   'hero.bullet.noaccount': 'Sin cuenta',
@@ -73,9 +79,11 @@ export const es = {
 
   // Privacy page
   'privacy.title': 'Política de Privacidad',
+  'privacy.meta.title': 'Política de Privacidad — Bluma',
   'privacy.meta.desc':
     'Política de privacidad de Bluma. Tus datos permanecen en tu dispositivo. Sin rastreo, sin anuncios, sin recopilación de datos.',
   'privacy.updated': 'Última actualización:',
+  'privacy.updated.date': '31 de marzo de 2026',
   'privacy.intro.title': 'Introducción',
   'privacy.intro.text':
     'Esta Política de Privacidad establece cómo la app Bluma ("nosotros" o "la app") utiliza y protege tus datos personales que generas y almacenas en la app.',

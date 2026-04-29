@@ -1,4 +1,9 @@
 export const en = {
+  // Home meta
+  'home.meta.title': 'Bluma - Private period tracker that works offline',
+  'home.meta.desc':
+    'Bluma is a private period tracker that stores your data on your device. Track periods, ovulation & symptoms offline. No account needed. No ads. Open source.',
+
   // Nav
   'nav.features': 'Features',
   'nav.story': 'Story',
@@ -61,6 +66,8 @@ export const en = {
     'Bluma uses your cycle history to estimate your next period, fertile window, and ovulation. Recent cycles have more influence on estimates than older ones.',
   'faq.a4.p2':
     'After about three cycles, predictions become more consistent. Accuracy can still vary from cycle to cycle, so these estimates should be used as guidance. All calculations happen on your device.',
+  'faq.a4.p3':
+    'After about three cycles, predictions can become more consistent. Still, accuracy varies from cycle to cycle, so treat predictions as guidance, not certainty.',
   'faq.q5': 'Is Bluma available on iOS?',
   'faq.a5': 'Bluma is coming soon to iOS. Join the waitlist to be notified when it becomes available.',
 
@@ -70,9 +77,11 @@ export const en = {
 
   // Privacy page
   'privacy.title': 'Privacy Policy',
+  'privacy.meta.title': 'Privacy Policy — Bluma',
   'privacy.meta.desc':
     "Bluma's privacy policy. Your data stays on your device. No tracking, no ads, no data collection.",
   'privacy.updated': 'Last updated:',
+  'privacy.updated.date': 'March 31, 2026',
   'privacy.intro.title': 'Introduction',
   'privacy.intro.text':
     'This Privacy Policy sets out how the app Bluma ("we," "us," or "the app") uses and protects your personal data that you generate and store within the app.',

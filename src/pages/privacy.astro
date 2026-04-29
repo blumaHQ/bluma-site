@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import PrivacyPage from '../components/PrivacyPage.astro';
 import { useTranslations } from '../i18n/utils';
 
 const lang = 'en';
@@ -7,81 +8,10 @@ const t = useTranslations(lang);
 ---
 
 <Layout
-  title="Privacy Policy — Bluma"
+  title={t('privacy.meta.title')}
   description={t('privacy.meta.desc')}
   lang={lang}
   canonicalPath="/privacy"
 >
-  <section class="privacy-hero" aria-labelledby="privacy-title">
-    <div class="section-head">
-      <h1 id="privacy-title">{t('privacy.title')}</h1>
-      <p class="last-updated">{t('privacy.updated')} <time datetime="2026-03-31">March 31, 2026</time></p>
-    </div>
-  </section>
-
-  <section class="privacy-content">
-    <div class="privacy-section">
-      <h2>{t('privacy.intro.title')}</h2>
-      <p>{t('privacy.intro.text')}</p>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.data.title')}</h2>
-      <p>{t('privacy.data.text')}</p>
-      <ul class="privacy-list">
-        <li>{t('privacy.data.item1')}</li>
-        <li>{t('privacy.data.item2')}</li>
-        <li>{t('privacy.data.item3')}</li>
-        <li>{t('privacy.data.item4')}</li>
-        <li>{t('privacy.data.item5')}</li>
-      </ul>
-      <p>{t('privacy.data.text2')}</p>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.deletion.title')}</h2>
-      <p>{t('privacy.deletion.text')}</p>
-      <ul class="privacy-list">
-        <li>{t('privacy.deletion.item1')}</li>
-        <li>{t('privacy.deletion.item2')}</li>
-        <li>{t('privacy.deletion.item3')}</li>
-      </ul>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.permissions.title')}</h2>
-      <p>{t('privacy.permissions.text')}</p>
-      <p><strong>{t('privacy.permissions.reminders')}</strong></p>
-      <p><strong>{t('privacy.permissions.biometric')}</strong></p>
-      <ul class="privacy-list">
-        <li>{t('privacy.permissions.item1')}</li>
-        <li>{t('privacy.permissions.item2')}</li>
-        <li>{t('privacy.permissions.item3')}</li>
-      </ul>
-      <p>{t('privacy.permissions.revoke')}</p>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.thirdparty.title')}</h2>
-      <ul class="privacy-list">
-        <li>{t('privacy.thirdparty.item1')}</li>
-        <li>{t('privacy.thirdparty.item2')}</li>
-        <li>{t('privacy.thirdparty.item3')}</li>
-        <li>{t('privacy.thirdparty.item4')}</li>
-      </ul>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.retention.title')}</h2>
-      <p>{t('privacy.retention.text')}</p>
-    </div>
-
-    <div class="privacy-section">
-      <h2>{t('privacy.contact.title')}</h2>
-      <p>
-        {t('privacy.contact.text')}
-        <a href="mailto:help.bluma@gmail.com" class="contact-link">help.bluma@gmail.com</a>.
-      </p>
-    </div>
-  </section>
+  <PrivacyPage lang={lang} />
 </Layout>

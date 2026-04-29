@@ -1,3 +1,9 @@
 {
-  "extends": "astro/tsconfigs/base"
+  "extends": "astro/tsconfigs/base",
+  "exclude": [
+    "src/pages/es/index.astro",
+    "src/pages/pt/index.astro",
+    "src/pages/es/privacy.astro",
+    "src/pages/pt/privacy.astro"
+  ]
 }
