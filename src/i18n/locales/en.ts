@@ -29,7 +29,7 @@ export const en = {
   'feature3.desc':
     'Everything you log is encrypted and stored on your device. No cloud, nothing to sell, share, or leak. Lock the app with biometrics, and inspect the code on <a href="https://github.com/blumaHQ/bluma-app" class="contact-link" target="_blank" rel="noopener noreferrer">GitHub</a>.',
   'feature4.title': 'Never lose your data',
-  'feature4.desc': 'Create encrypted backups anytime and restore them if you ever change phones.',
+  'feature4.desc': 'Create encrypted backups anytime and restore them if you change your phone.',
   'feature5.title': "Private doesn't mean clunky",
   'feature5.desc':
     'Bluma is built to be as easy and enjoyable to use as it is private. No ads, no upsells, nothing to interrupt you.',
